@@ -25,7 +25,7 @@ namespace AnySqlDataFeed.Controllers
         {
             // XML.Test.SerializeToFile();
 
-            AnySqlDataFeed.Modules.SimpleWriter.Test("T_Admin", this.HttpContext.Response.Output);
+            AnySqlDataFeed.Feed.TableDataTest.Test("T_Admin", this.HttpContext.Response.Output);
 
             return Content("OK");
         }

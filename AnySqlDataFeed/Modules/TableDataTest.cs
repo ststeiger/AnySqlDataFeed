@@ -1,15 +1,15 @@
 ﻿
-using System;
-using System.Collections.Generic;
-// using System.Linq;
-using System.Text;
 
-
-namespace AnySqlDataFeed.Modules
+namespace AnySqlDataFeed.Feed
 {
 
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using AnySqlDataFeed.XML;
 
-    public class SimpleWriter
+
+    public class TableDataTest
     {
 
 
@@ -343,7 +343,7 @@ ORDER BY ORDINAL_POSITION
             TableData.Feed feed = new TableData.Feed();
 
             System.Uri url = System.Web.HttpContext.Current.Request.Url;
-            string baseURL = url.Scheme + "://" + url.Authority + System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath + "DataFeed/";
+            string baseURL = url.Scheme + "://" + url.Authority + (System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath + "/").Replace("//", "/") + "DataFeed/";
 
 
             // feed.Base = "http://localhost:5570/ExcelDataFeed.svc/";
@@ -459,7 +459,7 @@ ORDER BY ORDINAL_POSITION
         public string Base { get; set; }
 
         [System.Xml.Serialization.XmlElement]
-        public TableData.MyProperties aaaa = new TableData.MyProperties();
+        public XML.TableData.MyProperties aaaa = new TableData.MyProperties();
     }
 
 

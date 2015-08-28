@@ -1,5 +1,5 @@
 ﻿
-namespace AnySqlDataFeed.Feed
+namespace AnySqlDataFeed.Feed 
 {
 
     using System;
@@ -18,7 +18,9 @@ namespace AnySqlDataFeed.Feed
             ser.Base = "http://localhost:54129/DataFeed";
 
             System.Uri url = System.Web.HttpContext.Current.Request.Url;
-            ser.Base = url.Scheme + "://" + url.Authority + (System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath + "/").Replace("//", "/") + "DataFeed";
+            ser.Base = url.Scheme + "://" + url.Authority + (System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath + "/").Replace("//", "/") + "ajax/ExcelDataFeed.ashx";
+
+
 
             if (Environment.OSVersion.Platform != PlatformID.Unix)
                 ser.Xmlns = "http://www.w3.org/2007/app";

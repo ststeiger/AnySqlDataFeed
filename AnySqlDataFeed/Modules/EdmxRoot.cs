@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 // http://xmltocsharp.azurewebsites.net/
 // http://jsonclassgenerator.codeplex.com/
-namespace AnySqlDataFeed.Xml2CSharp
+namespace AnySqlDataFeed.XML
 {
 
 

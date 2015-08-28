@@ -30,9 +30,9 @@ namespace AnySqlDataFeed.Controllers
             // return Content(foo, "application/xml");
 
             if(string.IsNullOrEmpty(id))
-                return new XmlResult(XML.Test.GetSerializationData());
+                return new XmlResult(Feed.Test.GetSerializationData());
 
-            return new XmlResult(id,AnySqlDataFeed.Modules.SimpleWriter.Test);
+            return new XmlResult(id, AnySqlDataFeed.Feed.TableDataTest.Test);
         }
 
 
