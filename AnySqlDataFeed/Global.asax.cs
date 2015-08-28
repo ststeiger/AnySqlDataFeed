@@ -25,7 +25,7 @@ namespace AnySqlDataFeed
         }
 
 
-        public static System.Web.IHttpModule analyzeRequestModule = new AnySqlDataFeed.Modules.AnalyzeRequestModule();
+        public static System.Web.IHttpModule analyzeRequestModule = new Modules.AnalyzeRequestModule();
 
         public override void Init()
         {
