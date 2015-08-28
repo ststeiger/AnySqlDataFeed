@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://localhost:5698/ExcelDataFeed.svc/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+  <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration</id>
+  <title type="text">T_FMS_Configuration</title>
+  <updated>2015-08-27T22:10:39Z</updated>
+  <link rel="self" title="T_FMS_Configuration" href="T_FMS_Configuration" />
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('addressLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('addressLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>addressLink</d:FC_Key>
+        <d:FC_Value>{@basic}Addressmanagement/Index.aspx?proc={@proc}</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.68</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('backofficeLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('backofficeLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>backofficeLink</d:FC_Key>
+        <d:FC_Value>{@basic}backoffice.aspx?proc={@proc}&amp;regID={@ID}</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.68</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('basicLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('basicLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>basicLink</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/COR_Basic_Demo/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('contractLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('contractLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>contractLink</d:FC_Key>
+        <d:FC_Value>{@basic}Contractmanagement/Index.aspx?proc={@proc}</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.68</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('DocumentInDB')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('DocumentInDB')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>DocumentInDB</d:FC_Key>
+        <d:FC_Value>True</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2015-07-16T14:57:28.23</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('DocumentPath')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('DocumentPath')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>DocumentPath</d:FC_Key>
+        <d:FC_Value></d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2015-07-16T14:57:28.233</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('domainLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('domainLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>domainLink</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('environmentLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('environmentLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>environmentLink</d:FC_Key>
+        <d:FC_Value>{@basic}Environmentmanagement/Index.aspx?proc={@proc}</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-08-08T09:15:51.237</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('Footer')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('Footer')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>Footer</d:FC_Key>
+        <d:FC_Value>COR cafm | suite for &lt;font color = 'red' size = '6'&gt;you&lt;/font&gt;</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.68</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('Legend_Logo')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('Legend_Logo')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>Legend_Logo</d:FC_Key>
+        <d:FC_Value>no_logo_spacing.png</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark>Logo-Datei für Legende im PDF, in Portal/images/VWS/logos/</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2014-02-03T17:15:04.173</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('Legend_ScaleFactor')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('Legend_ScaleFactor')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>Legend_ScaleFactor</d:FC_Key>
+        <d:FC_Value>30</d:FC_Value>
+        <d:FC_Type>System.Int32, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2014-02-03T17:15:04.173</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('Legend_Size')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('Legend_Size')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>Legend_Size</d:FC_Key>
+        <d:FC_Value>7</d:FC_Value>
+        <d:FC_Type>System.Int32, System</d:FC_Type>
+        <d:FC_Remark>Grösse der Legende im PDF</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2014-02-03T17:15:04.17</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('Legend_Template')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('Legend_Template')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>Legend_Template</d:FC_Key>
+        <d:FC_Value xml:space="preserve">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;style type="text/css" media="all"&gt;
+        html, body { margin: 0px; padding: 0px;} 
+        body { margin-left: 10px;} 
+        p { margin: 0px; padding: 0px; font-family: Verdana; font-weight: normal; font-size: 9px; } 
+        .DwgReferenz { font-family: Verdana; font-weight: normal; font-size: 9px; margin-top: 10px; } 
+         .LogoPosition { 
+			margin-left: 30px; 
+			max-width: 70px; 
+			max-height: 20px;
+		} 
+		
+		.site{font-weight: normal;}
+		
+		.floor
+		{
+			color: orange;
+			font-weight: normal;
+		}
+		
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;p class="site"&gt;
+		Liegenschafts-Nr.: @@LEG_Standortnummer@@    &lt;img style="display: none;" class="LogoPosition" width="@@LEG_Width@@" height="@@LEG_Height@@" src="data:@@LEG_LogoBase64@@" /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;@@LEG_Standortbezeichnung@@&lt;/p&gt;
+	&lt;p class="floor"&gt;
+		@@LEG_Geschoss@@
+	&lt;/p&gt;
+	&lt;p&gt;COR Demo&lt;/p&gt;
+	&lt;p style="display: none;"&gt;Fl&amp;auml;chenmanagement&lt;/p&gt;
+	&lt;p &gt;F&amp;nbsp;l&amp;nbsp;&amp;auml;&amp;nbsp;c&amp;nbsp;h&amp;nbsp;e&amp;nbsp;n&amp;nbsp;m&amp;nbsp;a&amp;nbsp;n&amp;nbsp;a&amp;nbsp;g&amp;nbsp;e&amp;nbsp;m&amp;nbsp;e&amp;nbsp;n&amp;nbsp;t&lt;/p&gt;
+	&lt;p&gt;Lista Bürocenter CH-8586 Erlen/TG&lt;/p&gt;
+	&lt;p&gt;Phone +41 71 649 22 46&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+	&lt;p&gt;Fax &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+41 71 648 19 13&lt;/p&gt;
+	&lt;p&gt;Druckdatum: @@LEG_Druckdatum@@&lt;/p&gt;
+	&lt;p class="DwgReferenz" style="display: none;"&gt;DWG-Referenz:&amp;nbsp;&amp;nbsp;&amp;nbsp;@@LEG_DWG@@&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark>Template für Legende im PDF</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2014-02-03T17:15:04.173</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('LinkDWG_ReplaceGB')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('LinkDWG_ReplaceGB')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>LinkDWG_ReplaceGB</d:FC_Key>
+        <d:FC_Value>False</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('LinkDWG_ReplaceGS')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('LinkDWG_ReplaceGS')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>LinkDWG_ReplaceGS</d:FC_Key>
+        <d:FC_Value>True</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('LinkDWG_ReplaceSO')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('LinkDWG_ReplaceSO')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>LinkDWG_ReplaceSO</d:FC_Key>
+        <d:FC_Value>True</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('LoginType')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('LoginType')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>LoginType</d:FC_Key>
+        <d:FC_Value>0</d:FC_Value>
+        <d:FC_Type>System.Int32, System</d:FC_Type>
+        <d:FC_Remark>Login Typ (1 = SAML)</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2015-02-06T16:43:25.31</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('NoTrust')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('NoTrust')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>NoTrust</d:FC_Key>
+        <d:FC_Value>True</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark>Wenn auf "True" wird TrustedMachines ignoriert, d.h. Kennworteingabe trotzdem erforderlich (Login Debug-Modus)</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-08-07T16:46:41.397</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('objectLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('objectLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>objectLink</d:FC_Key>
+        <d:FC_Value>{@basic}Objectmanagement/Index.aspx?proc={@proc}</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.68</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('Release')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('Release')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>Release</d:FC_Key>
+        <d:FC_Value>2015.7.3.1030</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark>Value to compare schema and changeset updates.</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2015-08-13T15:27:34.643</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('reportLink')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('reportLink')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>reportLink</d:FC_Key>
+        <d:FC_Value>https://www8.cor-asp.ch/ReportServer/Pages/ReportViewer.aspx?/COR_Basic_Demo/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark>Muss ReportViewer.aspx beinhalten</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('reportLink_dev')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('reportLink_dev')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>reportLink_dev</d:FC_Key>
+        <d:FC_Value>http://localhost:12345/ReportServer/Pages/ReportViewer.aspx?/COR_Basic_Demo/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark>Muss ReportViewer.aspx beinhalten</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('reportLink_localhost')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('reportLink_localhost')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>reportLink_localhost</d:FC_Key>
+        <d:FC_Value>http://localhost/ReportServer/Pages/ReportViewer.aspx?/COR_Basic_Demo/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark>Muss ReportViewer.aspx beinhalten</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('reportLink_www4')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('reportLink_www4')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>reportLink_www4</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/ReportServer/Pages/ReportViewer.aspx?/COR_Basic_Demo/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark>Muss ReportViewer.aspx beinhalten</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('reportLink_www8')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('reportLink_www8')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>reportLink_www8</d:FC_Key>
+        <d:FC_Value>https://www8.cor-asp.ch/ReportServer/Pages/ReportViewer.aspx?/COR_Basic_Demo/</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark>Muss ReportViewer.aspx beinhalten</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('SAML_DefaultGroups')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('SAML_DefaultGroups')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>SAML_DefaultGroups</d:FC_Key>
+        <d:FC_Value></d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark>Standardgruppe bei erstem SAML Login(Strichpunkt getrennt eingeben)</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2015-02-06T16:43:25.31</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('ShowDocumentObjectEdit')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('ShowDocumentObjectEdit')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>ShowDocumentObjectEdit</d:FC_Key>
+        <d:FC_Value>True</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2015-07-20T09:13:39.98</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('TrustedMachines')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('TrustedMachines')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>TrustedMachines</d:FC_Key>
+        <d:FC_Value>pc-steiger,pc-ssteiger</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark>Wenn Server auf diesen Maschinen läuft, wird das Login-Kennwort nicht überprüft</d:FC_Remark>
+        <d:FC_LastModified m:type="Edm.DateTime">2013-08-07T16:46:41.397</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('UseDatabaseRegister')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('UseDatabaseRegister')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>UseDatabaseRegister</d:FC_Key>
+        <d:FC_Value>True</d:FC_Value>
+        <d:FC_Type>System.Boolean, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2015-07-20T09:13:39.98</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('useNavigation')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('useNavigation')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>useNavigation</d:FC_Key>
+        <d:FC_Value>false</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2014-09-08T00:00:00</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_CH')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_CH')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_CH</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_DWGName&amp;DWG=_MAP_CH&amp;log=saved</d:FC_Value>
+        <d:FC_Type>System.String, mscorlib</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_DG')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_DG')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_DG</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GS&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_EG')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_EG')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_EG</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GS&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_GB')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_GB')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_GB</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GB&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_OG')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_OG')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_OG</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GS&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_SG')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_SG')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_SG</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GS&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_SO')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_SO')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_SO</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_SO&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.683</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_UG')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_UG')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_UG</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GS&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_FMS_Configuration('VWS_ZG')</id>
+    <category term="COR_Basic_DemoModel.T_FMS_Configuration" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_FMS_Configuration" href="T_FMS_Configuration('VWS_ZG')" />
+    <title />
+    <updated>2015-08-27T22:10:39Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:FC_Key>VWS_ZG</d:FC_Key>
+        <d:FC_Value>https://www6.cor-asp.ch/WAS/URLService/AWEURL.aspx?opc=no&amp;xcapp=newlocate&amp;u=corfmsuite&amp;ps=corfmsuite74&amp;xcsid=COR_Demo_Portal&amp;xcltype=VWS_CORFMSUITE_GS&amp;ObjektID=</d:FC_Value>
+        <d:FC_Type>System.Uri, System</d:FC_Type>
+        <d:FC_Remark m:null="true" />
+        <d:FC_LastModified m:type="Edm.DateTime">2013-07-08T13:38:40.687</d:FC_LastModified>
+      </m:properties>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://localhost:5698/ExcelDataFeed.svc/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+  <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag</id>
+  <title type="text">T_SYS_VisualisierungStichtag</title>
+  <updated>2015-08-27T22:17:27Z</updated>
+  <link rel="self" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag" />
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='%C2%A0',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='%C2%A0',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">6a8650e9-0cb3-4b85-8268-8cc868549994</d:VIS_OBJ_UID>
+        <d:VIS_DWG xml:space="preserve"> </d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='%3F',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='%3F',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">4425eab0-11d7-4589-95f7-5cba63c55674</d:VIS_OBJ_UID>
+        <d:VIS_DWG>?</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='0000000002FM0002KS',VIS_Stichtag=datetime'2012-10-31T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='0000000002FM0002KS',VIS_Stichtag=datetime'2012-10-31T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">4425eab0-11d7-4589-95f7-5cba63c55674</d:VIS_OBJ_UID>
+        <d:VIS_DWG>0000000002FM0002KS</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-10-31T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-EG00-GS1.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-EG00-GS1.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bfe587db-bd38-43ef-ba1b-3d9a92eae406</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-EG00-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-GS1.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-GS1.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">e86e63a3-6751-4446-8a6f-a90f39435791</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG01-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM003.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM003.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">93c5ec73-9858-4854-8999-341848277bf5</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG01-RM003.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM015.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM015.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">496373a5-5671-462d-b12d-7053a09e7abf</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG01-RM015.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM017.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM017.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">7dafda72-1cca-4e91-bd19-078cfb7c4c71</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG01-RM017.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM022.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG01-RM022.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b38c5882-65d4-4e79-b08f-071225a81b20</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG01-RM022.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG02-GS1.00',VIS_Stichtag=datetime'2013-06-17T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG02-GS1.00',VIS_Stichtag=datetime'2013-06-17T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">7f94e721-0516-42b5-9eb8-c3144bed13e2</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG02-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-17T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG02-RM046.00',VIS_Stichtag=datetime'2013-06-17T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG02-RM046.00',VIS_Stichtag=datetime'2013-06-17T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2047254e-dbb1-4e4f-88ad-7fa347931b04</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG02-RM046.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-17T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG03-GS1.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG03-GS1.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">859f75d6-62cc-4a98-b676-a8bcdaf2b5c5</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG03-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG05-AP3.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG05-AP3.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">1815d7e0-99ac-44c6-9cce-6fc9c8aab931</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG05-AP3.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG05-GS1.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG05-GS1.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">4a757edb-b7e0-406e-b525-2d24358d5409</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG05-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG05-RM013.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG05-RM013.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">ba1ccdc2-27b0-45a1-bda6-dee9263b28ba</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG05-RM013.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-AP14.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-AP14.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bc4352a4-6cf9-4099-be8c-6a2250fd59fb</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-AP14.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-AP3.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-AP3.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2e197700-6eae-49ac-9458-bf78b9dfa3c2</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-AP3.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-GS1.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-GS1.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">859b20fe-15ef-44e9-a035-6cab81ce3b4b</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM001.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM001.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">1d921b98-5450-472b-8f01-1f3341f1ef24</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-RM001.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM003.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM003.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c3c893fe-099f-4af8-b4d8-b73f30478de8</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-RM003.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM005.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM005.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2694bb68-48b2-4419-9b02-f604258b71bc</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-RM005.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM006.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM006.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">e19f0901-a47d-462b-81c2-e0e228c3360a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-RM006.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM026.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM026.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">56a63cde-87cc-404b-9e54-d78540b3a261</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-RM026.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM027.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG06-RM027.00',VIS_Stichtag=datetime'2013-06-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c0fbb4e4-ece9-4556-8124-e1069e5fb494</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG06-RM027.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG10-GS1.00',VIS_Stichtag=datetime'2013-05-17T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG10-GS1.00',VIS_Stichtag=datetime'2013-05-17T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">9df3ca1a-a669-45cb-a7ca-5331ab3bdc7c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG10-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-05-17T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG11-GS1.00',VIS_Stichtag=datetime'2013-05-15T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG11-GS1.00',VIS_Stichtag=datetime'2013-05-15T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">563e385a-ae69-46c9-b82b-2b8d3966a2e1</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG11-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-05-15T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG11-RM024.00',VIS_Stichtag=datetime'2013-05-15T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG11-RM024.00',VIS_Stichtag=datetime'2013-05-15T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">f88b60f7-6bf6-4a69-b162-8dbca324950c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG11-RM024.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-05-15T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG13-GS1.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG13-GS1.00',VIS_Stichtag=datetime'2013-06-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">92079e92-f6e4-43f7-b800-189fcffb5f8a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG13-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-AP31.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-AP31.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c5ee5be0-595f-4e98-a2b8-2fb31e6f3564</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG14-AP31.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-06T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-GS1.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-GS1.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">eccb59ca-ff44-44a4-b155-a8221e81baf1</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG14-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-06T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-RM007.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-RM007.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">de63a88d-144e-4175-a3c0-43afadd06083</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG14-RM007.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-06T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-RM009.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-RM009.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">7c69bf33-e3dd-4714-b82d-128ce340d015</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG14-RM009.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-06T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-RM010.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-OG14-RM010.00',VIS_Stichtag=datetime'2013-06-06T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">555c193a-0623-4f83-89ec-6e88af3846e3</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-OG14-RM010.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-06T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-UG01-GS1.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='000-0001-GB01-UG01-GS1.00',VIS_Stichtag=datetime'2013-06-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c1b9b047-3ad8-478d-b71a-6638a91584be</d:VIS_OBJ_UID>
+        <d:VIS_DWG>000-0001-GB01-UG01-GS1.00</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-06-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='0001_gbBC_OG03_0000',VIS_Stichtag=datetime'2010-11-15T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='0001_gbBC_OG03_0000',VIS_Stichtag=datetime'2010-11-15T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">967feed0-7c4d-4322-b282-8f51f8c8e9dc</d:VIS_OBJ_UID>
+        <d:VIS_DWG>0001_gbBC_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2010-11-15T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='0001-0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='0001-0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">db14b864-6f96-41b9-bd22-51eaeabc46b9</d:VIS_OBJ_UID>
+        <d:VIS_DWG>0001-0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='0035_0000',VIS_Stichtag=datetime'2010-11-15T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='0035_0000',VIS_Stichtag=datetime'2010-11-15T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">0d8d5e13-4293-4a29-b486-9023ea0ff965</d:VIS_OBJ_UID>
+        <d:VIS_DWG>0035_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2010-11-15T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1010_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1010_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">87b5bdf0-a02a-45ec-8c77-9b21dbadcce1</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1010_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-24T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-24T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">1241a54a-320b-4e37-a992-f61b8a3d72a1</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1010_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-24T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_OG04_0000',VIS_Stichtag=datetime'2011-09-07T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_OG04_0000',VIS_Stichtag=datetime'2011-09-07T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">7a504788-11d4-4ced-85b1-49baed726dd6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1010_GB01_OG04_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-09-07T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_OG06_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_OG06_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">71bdd868-692e-4d3d-b19a-871499206211</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1010_GB01_OG06_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_ZG04_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1010_GB01_ZG04_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">581dc9cd-6962-40eb-b18e-8a01a1919f18</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1010_GB01_ZG04_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1110_0000',VIS_Stichtag=datetime'2013-02-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1110_0000',VIS_Stichtag=datetime'2013-02-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">ff5ce267-135b-46e6-81e2-7529e2b132f5</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1110_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-02-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1234_GB01_0000',VIS_Stichtag=datetime'2011-03-24T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1234_GB01_0000',VIS_Stichtag=datetime'2011-03-24T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">3ed3fded-47a4-44a4-86d3-45dfd3a870f1</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1234_GB01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-03-24T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='1234_GB01_EG00_0000',VIS_Stichtag=datetime'2011-03-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='1234_GB01_EG00_0000',VIS_Stichtag=datetime'2011-03-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b99b50b2-9347-41a5-8048-ef7848aa788e</d:VIS_OBJ_UID>
+        <d:VIS_DWG>1234_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-03-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2505_0000',VIS_Stichtag=datetime'2011-10-19T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2505_0000',VIS_Stichtag=datetime'2011-10-19T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b99c13a5-00e4-4a6f-8f87-33ec50bebe0e</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2505_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-19T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-13T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-13T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">be2cdc71-5ff8-465b-9918-579deb01474d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2505_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-13T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_OG01_0000',VIS_Stichtag=datetime'2011-07-15T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_OG01_0000',VIS_Stichtag=datetime'2011-07-15T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">cda7a1db-fdc5-49ab-b6b2-d48973072934</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2505_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-15T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">e95f06a2-a5a1-446a-87e9-3f51f955d7f9</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2505_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_OG03_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2505_GB01_OG03_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">0b9fd934-16eb-4bcf-bab8-245457fef550</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2505_GB01_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2506_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2506_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">f69670e6-9415-4bd8-b07e-f9834264ab4d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2506_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2506_GB01_EG00_0000',VIS_Stichtag=datetime'2011-11-24T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2506_GB01_EG00_0000',VIS_Stichtag=datetime'2011-11-24T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b532f088-1cdb-4622-b5a8-5f0c2aed363a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2506_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-11-24T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2506_GB01_ZG00_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2506_GB01_ZG00_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bdbfcf11-50ea-4cd1-a699-26b1da2e521c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2506_GB01_ZG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2508_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2508_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b83108af-6203-4a54-a36b-c86b942fafab</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2508_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_EG00_0000',VIS_Stichtag=datetime'2011-10-20T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_EG00_0000',VIS_Stichtag=datetime'2011-10-20T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">098feccf-45b3-4037-ad79-b3ab3cceb69e</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2508_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-20T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_OG01_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_OG01_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">66662d39-1d96-4154-b04d-d13ca4972393</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2508_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">3b8e7ab8-8b7c-4185-a885-87f5f1a10b25</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2508_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_UG01_0000',VIS_Stichtag=datetime'2011-09-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2508_GB01_UG01_0000',VIS_Stichtag=datetime'2011-09-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8a5fe489-4e29-4498-97ed-5cfea764db2e</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2508_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-09-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_0000',VIS_Stichtag=datetime'2012-02-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_0000',VIS_Stichtag=datetime'2012-02-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2dc1a09d-c6e1-41c6-9756-25cb7dbba651</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-02-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_EG00_0000',VIS_Stichtag=datetime'2012-01-27T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_EG00_0000',VIS_Stichtag=datetime'2012-01-27T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">fc7d2f88-d8b9-4adf-8017-959ad761ea6e</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-27T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG02_0000',VIS_Stichtag=datetime'2012-01-03T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG02_0000',VIS_Stichtag=datetime'2012-01-03T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">ef131d9e-ae62-413c-bca5-d372c71b7a42</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-03T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG04_0000',VIS_Stichtag=datetime'2011-07-27T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG04_0000',VIS_Stichtag=datetime'2011-07-27T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">67048b4d-f900-4401-a673-b2c87aeb542d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_OG04_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-27T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG07_0000',VIS_Stichtag=datetime'2011-12-23T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG07_0000',VIS_Stichtag=datetime'2011-12-23T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">23079a74-0034-4cf2-aa46-ea612c8b6296</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_OG07_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-23T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG11_0000',VIS_Stichtag=datetime'2011-08-08T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG11_0000',VIS_Stichtag=datetime'2011-08-08T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">7c184cff-114a-4a04-944c-df4a9aee26e7</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_OG11_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-08-08T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG12_0000',VIS_Stichtag=datetime'2012-01-03T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_OG12_0000',VIS_Stichtag=datetime'2012-01-03T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">06511820-7fd5-41c4-8dbc-ae7f06bf7a82</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_OG12_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-03T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_UG01_0000',VIS_Stichtag=datetime'2011-09-28T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='2802_GB01_UG01_0000',VIS_Stichtag=datetime'2011-09-28T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">81d83266-d235-4cd3-9aaa-9e7c8f9b3b69</d:VIS_OBJ_UID>
+        <d:VIS_DWG>2802_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-09-28T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3000_0000',VIS_Stichtag=datetime'2012-03-06T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3000_0000',VIS_Stichtag=datetime'2012-03-06T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">698c242e-06bb-49ba-b467-c9ee4c10da1c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3000_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-03-06T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3012_0000',VIS_Stichtag=datetime'2011-12-19T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3012_0000',VIS_Stichtag=datetime'2011-12-19T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">f32a6756-8342-4306-bcd1-f04bc738eff0</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3012_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-19T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-22T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-22T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">d7a5ffb2-fdc0-45ff-b546-86fe1aa5392a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3012_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-22T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_OG03_0000',VIS_Stichtag=datetime'2011-09-30T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_OG03_0000',VIS_Stichtag=datetime'2011-09-30T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8077c156-c13d-43f4-a114-687469ffa48c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3012_GB01_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-09-30T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_UG01_0000',VIS_Stichtag=datetime'2011-10-04T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_UG01_0000',VIS_Stichtag=datetime'2011-10-04T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">4d248b44-7912-4f3d-a521-429ee3c88d3a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3012_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-04T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_UG02_0000',VIS_Stichtag=datetime'2012-02-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3012_GB01_UG02_0000',VIS_Stichtag=datetime'2012-02-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">ea8ff7f9-99e2-4458-8cdc-5562e5d6c8eb</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3012_GB01_UG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-02-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3043_GB01_EG00_0000',VIS_Stichtag=datetime'2011-11-24T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3043_GB01_EG00_0000',VIS_Stichtag=datetime'2011-11-24T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bb8d67e6-cadd-4331-b6e2-51e8c3f577b6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3043_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-11-24T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_EG00_0000',VIS_Stichtag=datetime'2012-03-08T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_EG00_0000',VIS_Stichtag=datetime'2012-03-08T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bedc1206-35be-4a96-836e-71308ce254bb</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3088_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-03-08T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG02_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG02_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">1a8ee2eb-dc39-4666-bd6b-718d6e80350b</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3088_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG03_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG03_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">64866151-78b0-4fcd-b403-4c89fd5c7b53</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3088_GB01_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG04_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG04_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">5ddb017e-f020-403d-9341-a96a4485cf9b</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3088_GB01_OG04_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG05_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3088_GB01_OG05_0000',VIS_Stichtag=datetime'2011-10-10T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">08faec98-3d80-4a0b-adb9-d3012b261823</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3088_GB01_OG05_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-10T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3501_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3501_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">df043613-23ec-412e-9629-251ab23cbb30</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3501_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3506_0000',VIS_Stichtag=datetime'2011-07-14T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3506_0000',VIS_Stichtag=datetime'2011-07-14T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">e2db209e-3be2-440c-8731-a9cd9f79273c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3506_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-14T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3507_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3507_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8d706006-bad0-4d09-bd6b-b24c5e869415</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3507_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3516_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3516_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">65715c49-de4c-45c0-9a24-4ca489ad4b02</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3516_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">19488d69-c23f-43fa-ade0-74d3942ce465</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_EG00_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_EG00_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">07821366-efd1-4a33-8469-7341aed2c585</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG01_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG01_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">0158fb99-71d2-421b-9cc8-beafc82bd0fc</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG02_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG02_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">4cc333f6-bbe3-46d9-a804-902587a84c54</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG03_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG03_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">0c4f2a47-6118-4095-9d51-0041c4f2ebfa</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG05_0000',VIS_Stichtag=datetime'2012-03-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG05_0000',VIS_Stichtag=datetime'2012-03-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bd149c85-5b3d-46ec-af31-31328e0f629f</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_OG05_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-03-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG06_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_OG06_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b7516813-df5f-4884-9997-8726c2b3edf6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_OG06_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_UG01_0000',VIS_Stichtag=datetime'2013-03-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3518_GB01_UG01_0000',VIS_Stichtag=datetime'2013-03-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">d64da07f-d7b1-4aa6-b7ea-701bd9f0e1ef</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3518_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-03-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3526_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3526_0000',VIS_Stichtag=datetime'2011-07-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">f99f2e05-f8f5-45dd-ae6a-e7e896e4bdb8</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3526_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3528_GB01_EG00_0000',VIS_Stichtag=datetime'2011-11-04T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3528_GB01_EG00_0000',VIS_Stichtag=datetime'2011-11-04T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">dbe4eabc-2824-47b5-bfa0-8e71953abf40</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3528_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-11-04T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3604_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3604_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">81f82b66-5cc1-4985-869f-cade014fb4a4</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3604_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3604_GB01_OG01_0000',VIS_Stichtag=datetime'2014-01-08T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3604_GB01_OG01_0000',VIS_Stichtag=datetime'2014-01-08T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2eedbcb1-8948-4c53-aca8-dea6f7a6d236</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3604_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2014-01-08T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3604_GB01_UG01_0000',VIS_Stichtag=datetime'2013-09-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3604_GB01_UG01_0000',VIS_Stichtag=datetime'2013-09-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">95452a93-a060-450b-b734-369f94bd7193</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3604_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-09-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='3648_GB01_UG01_0000',VIS_Stichtag=datetime'2014-01-14T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='3648_GB01_UG01_0000',VIS_Stichtag=datetime'2014-01-14T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2543f162-4d42-42fb-9894-580d24578f9b</d:VIS_OBJ_UID>
+        <d:VIS_DWG>3648_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2014-01-14T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4020_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4020_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">98bf0dc0-8182-4f32-b3c3-04cd35909d67</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4020_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4020_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-23T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4020_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-23T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">ef8c9919-1ba5-48c7-8b1e-27f379647291</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4020_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-23T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4050_0000',VIS_Stichtag=datetime'2011-11-07T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4050_0000',VIS_Stichtag=datetime'2011-11-07T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">cff2fa5e-58bd-46ca-b01d-9b3cf15fc524</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4050_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-11-07T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4060_0000',VIS_Stichtag=datetime'2011-11-07T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4060_0000',VIS_Stichtag=datetime'2011-11-07T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">63b4b091-4b77-44fb-a48d-947939192a65</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4060_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-11-07T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4061_0000',VIS_Stichtag=datetime'2011-07-14T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4061_0000',VIS_Stichtag=datetime'2011-07-14T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">eaf6a690-ad2f-40a5-a4bc-4c47148dcc46</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4061_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-14T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4061_GB01_UG01_0000',VIS_Stichtag=datetime'2011-07-14T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4061_GB01_UG01_0000',VIS_Stichtag=datetime'2011-07-14T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">768e9dae-0b5d-4ce9-8ce6-f57cee611b4a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4061_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-14T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4070_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4070_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">627e684f-b1de-487b-893b-f886a69c4fc6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4070_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4110_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4110_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">d9812686-6abe-49dd-b632-d9819e8ed302</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4110_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4210_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4210_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">06f17af2-3b11-417d-ad44-434b7d7b5039</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4210_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4210_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4210_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b980d27d-fd55-488b-811a-b2bf853c8ea0</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4210_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4210_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4210_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">fae01ef6-d8bc-4bb1-bed5-e459c4222c7d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4210_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4220_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4220_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">021bebfa-c044-498e-99f1-aeb5787a656d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4220_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4230_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4230_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">f80da6e5-3b32-4ad8-8e16-def42a691799</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4230_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4300_0000',VIS_Stichtag=datetime'2012-02-13T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4300_0000',VIS_Stichtag=datetime'2012-02-13T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">24f9f61b-036c-48e6-ab07-c43a0bfb6c7d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4300_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-02-13T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4380_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4380_0000',VIS_Stichtag=datetime'2011-07-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2cc5de67-3bf3-456e-b4bd-041e75a1a6a9</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4380_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4510_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4510_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">b156e1e1-51e3-4274-ab7b-33ba03ae2109</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4510_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4600_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4600_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">dcfbdba2-1d2a-4166-9b1a-16487695b805</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4600_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4600_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4600_GB01_OG02_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8e776742-3d9b-46eb-86c8-0605a9dead13</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4600_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='4830_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='4830_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2356cfd4-0191-451e-9614-8d08936c9ed1</d:VIS_OBJ_UID>
+        <d:VIS_DWG>4830_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='5091_0000',VIS_Stichtag=datetime'2012-01-27T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='5091_0000',VIS_Stichtag=datetime'2012-01-27T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8ac2b564-1199-41fe-af6f-369bb019d760</d:VIS_OBJ_UID>
+        <d:VIS_DWG>5091_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-27T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='5130_GB01_UG01_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='5130_GB01_UG01_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c966983e-4a48-4428-b3b9-4c9eb7507e7e</d:VIS_OBJ_UID>
+        <d:VIS_DWG>5130_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='5170_GB01_UG01_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='5170_GB01_UG01_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">668e6794-521b-468e-bfda-1ea3dfbdcf4c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>5170_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='5320_GB01_EG00_0000',VIS_Stichtag=datetime'2012-01-18T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='5320_GB01_EG00_0000',VIS_Stichtag=datetime'2012-01-18T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">fd5aa344-7292-4c2c-a3e9-ce5fa54b9a9c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>5320_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-18T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='5320_GB01_OG01_0000',VIS_Stichtag=datetime'2012-01-18T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='5320_GB01_OG01_0000',VIS_Stichtag=datetime'2012-01-18T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">e12d3b21-1b39-46a7-ae75-c252ebbc1938</d:VIS_OBJ_UID>
+        <d:VIS_DWG>5320_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-18T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='5678_GB01_EG00_0000',VIS_Stichtag=datetime'2010-09-13T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='5678_GB01_EG00_0000',VIS_Stichtag=datetime'2010-09-13T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8f0d2d51-6ce4-41d1-a0b4-01ee76fe3181</d:VIS_OBJ_UID>
+        <d:VIS_DWG>5678_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2010-09-13T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6001_0000',VIS_Stichtag=datetime'2011-10-31T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6001_0000',VIS_Stichtag=datetime'2011-10-31T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">cc897262-f985-4c25-a3f8-aafddc54648d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6001_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-31T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6001_GB01_OG01_0000',VIS_Stichtag=datetime'2012-01-27T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6001_GB01_OG01_0000',VIS_Stichtag=datetime'2012-01-27T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">3a0a5694-f996-47e5-8011-d2e2f4cad2c3</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6001_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-27T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6002_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6002_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c408352d-0265-4166-bdea-363a795f51ef</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6002_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6006_GB01_UG01_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6006_GB01_UG01_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">ab89a131-3f0b-4c5d-8f59-1674136110ad</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6006_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6008_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6008_0000',VIS_Stichtag=datetime'2013-10-02T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">35eb6710-18fe-4f2b-83d8-838fd150fe03</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6008_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-10-02T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6008_GB01_OG01_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6008_GB01_OG01_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">5b3b53cd-e79d-4b0a-bfce-1465de18d355</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6008_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6008_GB01_OG03_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6008_GB01_OG03_0000',VIS_Stichtag=datetime'1900-01-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">0c1b5eff-828e-463e-8af6-bdd7ee417b46</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6008_GB01_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">1900-01-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6008_GB01_UG01_0000',VIS_Stichtag=datetime'2012-05-03T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6008_GB01_UG01_0000',VIS_Stichtag=datetime'2012-05-03T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8afd3da1-0e1f-43e4-97a1-8f3298d3d1f3</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6008_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-05-03T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6032_0000',VIS_Stichtag=datetime'2012-02-01T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6032_0000',VIS_Stichtag=datetime'2012-02-01T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">0f1e9136-6fb2-473a-ae88-0b7e10ee5fcc</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6032_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-02-01T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6034_0000',VIS_Stichtag=datetime'2012-03-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6034_0000',VIS_Stichtag=datetime'2012-03-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">2b18a503-eb6b-43f1-b05f-7130c72c95c6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6034_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-03-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6040_0000',VIS_Stichtag=datetime'2012-02-13T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6040_0000',VIS_Stichtag=datetime'2012-02-13T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">60d77194-bccb-44ec-a93b-5401ec9ae0c4</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6040_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-02-13T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6061_0000',VIS_Stichtag=datetime'2011-12-20T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6061_0000',VIS_Stichtag=datetime'2011-12-20T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">1924c479-f42f-4f5f-9639-71f786f1a791</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6061_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-20T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6090_0000',VIS_Stichtag=datetime'2011-07-09T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6090_0000',VIS_Stichtag=datetime'2011-07-09T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">41bd092a-f51d-4214-a231-d31b43ae5f47</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6090_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-09T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6280_GB01_OG02_0000',VIS_Stichtag=datetime'2013-03-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6280_GB01_OG02_0000',VIS_Stichtag=datetime'2013-03-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">cffcf7e7-f359-49b3-9461-bd2a1491a0c6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6280_GB01_OG02_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-03-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6280_GB01_UG01_0000',VIS_Stichtag=datetime'2013-03-26T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6280_GB01_UG01_0000',VIS_Stichtag=datetime'2013-03-26T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">fe62720f-2321-4f67-94d2-355c322177cd</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6280_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2013-03-26T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6876_0000',VIS_Stichtag=datetime'2011-10-24T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6876_0000',VIS_Stichtag=datetime'2011-10-24T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">c4f62742-935e-4ba1-b168-cfab2474ad3c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6876_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-24T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='6876_GB02_UG01_0000',VIS_Stichtag=datetime'2011-10-21T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='6876_GB02_UG01_0000',VIS_Stichtag=datetime'2011-10-21T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">cc1d7a68-4cda-48b0-9591-f97e079328cb</d:VIS_OBJ_UID>
+        <d:VIS_DWG>6876_GB02_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-10-21T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='7612_GB01_EG00_0000',VIS_Stichtag=datetime'2012-01-09T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='7612_GB01_EG00_0000',VIS_Stichtag=datetime'2012-01-09T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">9d82bcba-b6e1-43f4-84d7-015504c51f9c</d:VIS_OBJ_UID>
+        <d:VIS_DWG>7612_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2012-01-09T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='7619_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='7619_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">5a11af84-02f0-4254-9aff-8ef2d828db6a</d:VIS_OBJ_UID>
+        <d:VIS_DWG>7619_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='7619_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='7619_GB01_EG00_0000',VIS_Stichtag=datetime'2011-12-12T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">3d3ae63e-32ff-467f-a7a8-696a53582aba</d:VIS_OBJ_UID>
+        <d:VIS_DWG>7619_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-12-12T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='8526_GB01_OG03_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='8526_GB01_OG03_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">d0f0b3b2-367a-4cd0-831b-9d418f3f17b5</d:VIS_OBJ_UID>
+        <d:VIS_DWG>8526_GB01_OG03_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='8526_GB01_UG01_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='8526_GB01_UG01_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">acc8530b-0504-4ab9-b812-bbecfa57e850</d:VIS_OBJ_UID>
+        <d:VIS_DWG>8526_GB01_UG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9422_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9422_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">452e000d-3dd7-4435-955d-4559402cd1eb</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9422_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9422_GB01_OG01_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9422_GB01_OG01_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">dc7d0831-dd0f-4527-9e8d-1633e16b6e9f</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9422_GB01_OG01_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9424_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9424_0000',VIS_Stichtag=datetime'2011-07-05T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">4455751b-04a9-4723-bd84-409315a9e55d</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9424_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-05T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9450_GB01_EG00_0000',VIS_Stichtag=datetime'2011-06-29T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9450_GB01_EG00_0000',VIS_Stichtag=datetime'2011-06-29T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">7334da85-063a-4b6b-b6c1-6b504f08dc89</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9450_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-06-29T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9820_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9820_GB01_EG00_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">8cd2eb8e-aa4e-4d12-a340-e9a54bb6fa7b</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9820_GB01_EG00_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9820_GB01_OG04_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9820_GB01_OG04_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">bdcde9e8-8965-4766-8d58-fa41dd08ba90</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9820_GB01_OG04_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_SYS_VisualisierungStichtag(VIS_DWG='9820_GB01_OG05_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')</id>
+    <category term="COR_Basic_DemoModel.T_SYS_VisualisierungStichtag" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_SYS_VisualisierungStichtag" href="T_SYS_VisualisierungStichtag(VIS_DWG='9820_GB01_OG05_0000',VIS_Stichtag=datetime'2011-07-11T00%3A00%3A00')" />
+    <title />
+    <updated>2015-08-27T22:17:27Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:VIS_OBJ_UID m:type="Edm.Guid">f4219760-8a2e-45b7-8bda-c50a62cd9da6</d:VIS_OBJ_UID>
+        <d:VIS_DWG>9820_GB01_OG05_0000</d:VIS_DWG>
+        <d:VIS_Stichtag m:type="Edm.DateTime">2011-07-11T00:00:00</d:VIS_Stichtag>
+      </m:properties>
+    </content>
+  </entry>
+</feed>

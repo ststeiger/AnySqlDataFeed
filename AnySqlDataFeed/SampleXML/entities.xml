@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service xml:base="http://localhost:5570/ExcelDataFeed.svc/" xmlns="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom">
+    <workspace>
+        <atom:title>Default</atom:title>
+        <collection href="ELMAH_Error">
+            <atom:title>ELMAH_Error</atom:title>
+        </collection>
+        <collection href="T_Admin">
+            <atom:title>T_Admin</atom:title>
+        </collection>
+        <collection href="T_ALV_Ref_FilterAnzeige">
+            <atom:title>T_ALV_Ref_FilterAnzeige</atom:title>
+        </collection>
+        <collection href="T_AP_Anlage">
+            <atom:title>T_AP_Anlage</atom:title>
+        </collection>
+        <collection href="T_AP_Anlage_History">
+            <atom:title>T_AP_Anlage_History</atom:title>
+        </collection>
+        <collection href="T_AP_Anschluss">
+            <atom:title>T_AP_Anschluss</atom:title>
+        </collection>
+        <collection href="T_AP_Anschluss_History">
+            <atom:title>T_AP_Anschluss_History</atom:title>
+        </collection>
+        <collection href="T_AP_Arbeitsplatz">
+            <atom:title>T_AP_Arbeitsplatz</atom:title>
+        </collection>
+        <collection href="T_AP_Arbeitsplatz_History">
+            <atom:title>T_AP_Arbeitsplatz_History</atom:title>
+        </collection>
+        <collection href="T_AP_Aussenobjekt">
+            <atom:title>T_AP_Aussenobjekt</atom:title>
+        </collection>
+        <collection href="T_AP_Aussenobjekt_History">
+            <atom:title>T_AP_Aussenobjekt_History</atom:title>
+        </collection>
+        <collection href="T_AP_Dokumente">
+            <atom:title>T_AP_Dokumente</atom:title>
+        </collection>
+        <collection href="T_AP_Dose">
+            <atom:title>T_AP_Dose</atom:title>
+        </collection>
+        <collection href="T_AP_Dose_History">
+            <atom:title>T_AP_Dose_History</atom:title>
+        </collection>
+        <collection href="T_AP_DWGSAVE">
+            <atom:title>T_AP_DWGSAVE</atom:title>
+        </collection>
+        <collection href="T_AP_EmailVersand">
+            <atom:title>T_AP_EmailVersand</atom:title>
+        </collection>
+        <collection href="T_AP_Fotos">
+            <atom:title>T_AP_Fotos</atom:title>
+        </collection>
+        <collection href="T_AP_Gebaeude">
+            <atom:title>T_AP_Gebaeude</atom:title>
+        </collection>
+        <collection href="T_AP_Gebaeude_History">
+            <atom:title>T_AP_Gebaeude_History</atom:title>
+        </collection>
+        <collection href="T_AP_Gebaeude_Reichle">
+            <atom:title>T_AP_Gebaeude_Reichle</atom:title>
+        </collection>
+        <collection href="T_AP_Gebaeude_SwissLife">
+            <atom:title>T_AP_Gebaeude_SwissLife</atom:title>
+        </collection>
+        <collection href="T_AP_Geschoss">
+            <atom:title>T_AP_Geschoss</atom:title>
+        </collection>
+        <collection href="T_AP_Geschoss_History">
+            <atom:title>T_AP_Geschoss_History</atom:title>
+        </collection>
+        <collection href="T_AP_Geschoss_Reichle">
+            <atom:title>T_AP_Geschoss_Reichle</atom:title>
+        </collection>
+        <collection href="T_AP_Grundstueck">
+            <atom:title>T_AP_Grundstueck</atom:title>
+        </collection>
+        <collection href="T_AP_Grundstueck_History">
+            <atom:title>T_AP_Grundstueck_History</atom:title>
+        </collection>
+        <collection href="T_AP_Informatik">
+            <atom:title>T_AP_Informatik</atom:title>
+        </collection>
+        <collection href="T_AP_Informatik_History">
+            <atom:title>T_AP_Informatik_History</atom:title>
+        </collection>
+        <collection href="T_AP_Kommunikation">
+            <atom:title>T_AP_Kommunikation</atom:title>
+        </collection>
+        <collection href="T_AP_Kommunikation_History">
+            <atom:title>T_AP_Kommunikation_History</atom:title>
+        </collection>
+        <collection href="T_AP_Kontakte">
+            <atom:title>T_AP_Kontakte</atom:title>
+        </collection>
+        <collection href="T_AP_Kontakte_History">
+            <atom:title>T_AP_Kontakte_History</atom:title>
+        </collection>
+        <collection href="T_AP_Kunst">
+            <atom:title>T_AP_Kunst</atom:title>
+        </collection>
+        <collection href="T_AP_Kunst_History">
+            <atom:title>T_AP_Kunst_History</atom:title>
+        </collection>
+        <collection href="T_AP_Legenden">
+            <atom:title>T_AP_Legenden</atom:title>
+        </collection>
+        <collection href="T_AP_LinkDWG">
+            <atom:title>T_AP_LinkDWG</atom:title>
+        </collection>
+        <collection href="T_AP_Mobiliar">
+            <atom:title>T_AP_Mobiliar</atom:title>
+        </collection>
+        <collection href="T_AP_Mobiliar_History">
+            <atom:title>T_AP_Mobiliar_History</atom:title>
+        </collection>
+        <collection href="T_AP_Parkplatz">
+            <atom:title>T_AP_Parkplatz</atom:title>
+        </collection>
+        <collection href="T_AP_Parkplatz_History">
+            <atom:title>T_AP_Parkplatz_History</atom:title>
+        </collection>
+        <collection href="T_AP_Raum">
+            <atom:title>T_AP_Raum</atom:title>
+        </collection>
+        <collection href="T_AP_Raum_History">
+            <atom:title>T_AP_Raum_History</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageBauform">
+            <atom:title>T_AP_Ref_AnlageBauform</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageBetriebsart">
+            <atom:title>T_AP_Ref_AnlageBetriebsart</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageEnergietraeger">
+            <atom:title>T_AP_Ref_AnlageEnergietraeger</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageKaeltemittel">
+            <atom:title>T_AP_Ref_AnlageKaeltemittel</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageKategorie">
+            <atom:title>T_AP_Ref_AnlageKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageKategorieSchema">
+            <atom:title>T_AP_Ref_AnlageKategorieSchema</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageKategorieVerfuegbarkeit">
+            <atom:title>T_AP_Ref_AnlageKategorieVerfuegbarkeit</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageRueckkuehlung">
+            <atom:title>T_AP_Ref_AnlageRueckkuehlung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnlageWRG">
+            <atom:title>T_AP_Ref_AnlageWRG</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnschlussKabelTyp">
+            <atom:title>T_AP_Ref_AnschlussKabelTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnschlussKategorie">
+            <atom:title>T_AP_Ref_AnschlussKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnschlussSwitch">
+            <atom:title>T_AP_Ref_AnschlussSwitch</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnschlussTyp">
+            <atom:title>T_AP_Ref_AnschlussTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AnschlussVerteiler">
+            <atom:title>T_AP_Ref_AnschlussVerteiler</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ArbeitsplatzKategorie">
+            <atom:title>T_AP_Ref_ArbeitsplatzKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektAnschlagkastenMaterial">
+            <atom:title>T_AP_Ref_AussenobjektAnschlagkastenMaterial</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektAnschlagkastenSchliessung">
+            <atom:title>T_AP_Ref_AussenobjektAnschlagkastenSchliessung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektAnschlagkastenTyp">
+            <atom:title>T_AP_Ref_AussenobjektAnschlagkastenTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektAusbauten">
+            <atom:title>T_AP_Ref_AussenobjektAusbauten</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektBeflaggungTyp">
+            <atom:title>T_AP_Ref_AussenobjektBeflaggungTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektBodenbelag">
+            <atom:title>T_AP_Ref_AussenobjektBodenbelag</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektKategorie">
+            <atom:title>T_AP_Ref_AussenobjektKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_AussenobjektNutzungsart">
+            <atom:title>T_AP_Ref_AussenobjektNutzungsart</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Bodenbelag">
+            <atom:title>T_AP_Ref_Bodenbelag</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Dienstleistung">
+            <atom:title>T_AP_Ref_Dienstleistung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_DienstleistungDetail">
+            <atom:title>T_AP_Ref_DienstleistungDetail</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_DIN277">
+            <atom:title>T_AP_Ref_DIN277</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_DokumentKategorie">
+            <atom:title>T_AP_Ref_DokumentKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_DokumentMetadaten">
+            <atom:title>T_AP_Ref_DokumentMetadaten</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_DoseKategorie">
+            <atom:title>T_AP_Ref_DoseKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Eigentumsverhaeltnis">
+            <atom:title>T_AP_Ref_Eigentumsverhaeltnis</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Email_Placeholder">
+            <atom:title>T_AP_Ref_Email_Placeholder</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_EmailAttachment">
+            <atom:title>T_AP_Ref_EmailAttachment</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Emaillink">
+            <atom:title>T_AP_Ref_Emaillink</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Emailtext">
+            <atom:title>T_AP_Ref_Emailtext</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_EmailtextKategorie">
+            <atom:title>T_AP_Ref_EmailtextKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Energiebezugsart">
+            <atom:title>T_AP_Ref_Energiebezugsart</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ErschliessungFussweg">
+            <atom:title>T_AP_Ref_ErschliessungFussweg</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ErschliessungStrasse">
+            <atom:title>T_AP_Ref_ErschliessungStrasse</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Fluchtwegmarkierung">
+            <atom:title>T_AP_Ref_Fluchtwegmarkierung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_FotoKategorie">
+            <atom:title>T_AP_Ref_FotoKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Freigabetyp">
+            <atom:title>T_AP_Ref_Freigabetyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_GebaeudeEinstufung">
+            <atom:title>T_AP_Ref_GebaeudeEinstufung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_GebaeudeKategorie">
+            <atom:title>T_AP_Ref_GebaeudeKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_GebaeudeKlassifizierung">
+            <atom:title>T_AP_Ref_GebaeudeKlassifizierung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Geschoss_Reichle">
+            <atom:title>T_AP_Ref_Geschoss_Reichle</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Geschosstyp">
+            <atom:title>T_AP_Ref_Geschosstyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Haus">
+            <atom:title>T_AP_Ref_Haus</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_InformatikBetriebssystem">
+            <atom:title>T_AP_Ref_InformatikBetriebssystem</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_InformatikKategorie">
+            <atom:title>T_AP_Ref_InformatikKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KommunikationAnbieter">
+            <atom:title>T_AP_Ref_KommunikationAnbieter</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KommunikationKategorie">
+            <atom:title>T_AP_Ref_KommunikationKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KontakFunktion">
+            <atom:title>T_AP_Ref_KontakFunktion</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KontaktGeschlecht">
+            <atom:title>T_AP_Ref_KontaktGeschlecht</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Kostenstelle">
+            <atom:title>T_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Kostenstelle_Raiffeisen">
+            <atom:title>T_AP_Ref_Kostenstelle_Raiffeisen</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KunstKategorie">
+            <atom:title>T_AP_Ref_KunstKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KunstKuenstler">
+            <atom:title>T_AP_Ref_KunstKuenstler</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KunstMandant">
+            <atom:title>T_AP_Ref_KunstMandant</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KunstRahmenArt">
+            <atom:title>T_AP_Ref_KunstRahmenArt</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_KunstStatus">
+            <atom:title>T_AP_Ref_KunstStatus</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Land">
+            <atom:title>T_AP_Ref_Land</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Landesteile">
+            <atom:title>T_AP_Ref_Landesteile</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Layerset">
+            <atom:title>T_AP_Ref_Layerset</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_LiegenschaftenStrategie">
+            <atom:title>T_AP_Ref_LiegenschaftenStrategie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Mandant">
+            <atom:title>T_AP_Ref_Mandant</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Mandant_Logo">
+            <atom:title>T_AP_Ref_Mandant_Logo</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Mietobjekt">
+            <atom:title>T_AP_Ref_Mietobjekt</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MitarbeiterAusruestung">
+            <atom:title>T_AP_Ref_MitarbeiterAusruestung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MitarbeiterStatus">
+            <atom:title>T_AP_Ref_MitarbeiterStatus</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MobiliarBibliothek">
+            <atom:title>T_AP_Ref_MobiliarBibliothek</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MobiliarBibliothek_Raiffeisen">
+            <atom:title>T_AP_Ref_MobiliarBibliothek_Raiffeisen</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MobiliarFarbe">
+            <atom:title>T_AP_Ref_MobiliarFarbe</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MobiliarHersteller">
+            <atom:title>T_AP_Ref_MobiliarHersteller</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MobiliarKategorie">
+            <atom:title>T_AP_Ref_MobiliarKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_MobiliarMaterial">
+            <atom:title>T_AP_Ref_MobiliarMaterial</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Nutzungsart">
+            <atom:title>T_AP_Ref_Nutzungsart</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Nutzungsart_Raiffeisen">
+            <atom:title>T_AP_Ref_Nutzungsart_Raiffeisen</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_NutzungsartGruppe">
+            <atom:title>T_AP_Ref_NutzungsartGruppe</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Organisationseinheit">
+            <atom:title>T_AP_Ref_Organisationseinheit</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Organisationseinheit_Raiffeisen">
+            <atom:title>T_AP_Ref_Organisationseinheit_Raiffeisen</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Ort">
+            <atom:title>T_AP_Ref_Ort</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ParkplatzKategorie">
+            <atom:title>T_AP_Ref_ParkplatzKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ParkplatzLage">
+            <atom:title>T_AP_Ref_ParkplatzLage</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ParkplatzPool">
+            <atom:title>T_AP_Ref_ParkplatzPool</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ParkplatzSchutz">
+            <atom:title>T_AP_Ref_ParkplatzSchutz</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ParkplatzTyp">
+            <atom:title>T_AP_Ref_ParkplatzTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_PersonalKategorie">
+            <atom:title>T_AP_Ref_PersonalKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_PersonGeschlecht">
+            <atom:title>T_AP_Ref_PersonGeschlecht</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_RaumDeckenkonstruktion">
+            <atom:title>T_AP_Ref_RaumDeckenkonstruktion</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_RaumSicherheitszone">
+            <atom:title>T_AP_Ref_RaumSicherheitszone</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_RaumTrakt">
+            <atom:title>T_AP_Ref_RaumTrakt</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_RaumWandoberflaeche">
+            <atom:title>T_AP_Ref_RaumWandoberflaeche</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Region">
+            <atom:title>T_AP_Ref_Region</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Reinigungsprio">
+            <atom:title>T_AP_Ref_Reinigungsprio</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_SchliessungAufbewahrung">
+            <atom:title>T_AP_Ref_SchliessungAufbewahrung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_SchliessungMandant">
+            <atom:title>T_AP_Ref_SchliessungMandant</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Schliessungstyp">
+            <atom:title>T_AP_Ref_Schliessungstyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_SchluesselKategorie">
+            <atom:title>T_AP_Ref_SchluesselKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_SchluesselStatus">
+            <atom:title>T_AP_Ref_SchluesselStatus</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_SchluesselTyp">
+            <atom:title>T_AP_Ref_SchluesselTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_SicherheitKategorie">
+            <atom:title>T_AP_Ref_SicherheitKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_StandortKategorie">
+            <atom:title>T_AP_Ref_StandortKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Strasse_Reichle">
+            <atom:title>T_AP_Ref_Strasse_Reichle</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_TuerBrandschutz">
+            <atom:title>T_AP_Ref_TuerBrandschutz</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_TuerFunktion">
+            <atom:title>T_AP_Ref_TuerFunktion</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_TuerMaterial">
+            <atom:title>T_AP_Ref_TuerMaterial</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_TuerTyp">
+            <atom:title>T_AP_Ref_TuerTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ZaehlerKategorie">
+            <atom:title>T_AP_Ref_ZaehlerKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ZoneKategorie">
+            <atom:title>T_AP_Ref_ZoneKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_Zonenzuteilung">
+            <atom:title>T_AP_Ref_Zonenzuteilung</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ZuschlagsflaechenTyp">
+            <atom:title>T_AP_Ref_ZuschlagsflaechenTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ZylinderKategorie">
+            <atom:title>T_AP_Ref_ZylinderKategorie</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ZylinderSchliesssystem">
+            <atom:title>T_AP_Ref_ZylinderSchliesssystem</atom:title>
+        </collection>
+        <collection href="T_AP_Ref_ZylinderTyp">
+            <atom:title>T_AP_Ref_ZylinderTyp</atom:title>
+        </collection>
+        <collection href="T_AP_Schluessel">
+            <atom:title>T_AP_Schluessel</atom:title>
+        </collection>
+        <collection href="T_AP_Schluessel_History">
+            <atom:title>T_AP_Schluessel_History</atom:title>
+        </collection>
+        <collection href="T_AP_Schluessel_Protokoll">
+            <atom:title>T_AP_Schluessel_Protokoll</atom:title>
+        </collection>
+        <collection href="T_AP_Schluesselgruppe">
+            <atom:title>T_AP_Schluesselgruppe</atom:title>
+        </collection>
+        <collection href="T_AP_Schluesselgruppe_History">
+            <atom:title>T_AP_Schluesselgruppe_History</atom:title>
+        </collection>
+        <collection href="T_AP_SHOW_BeilageMV">
+            <atom:title>T_AP_SHOW_BeilageMV</atom:title>
+        </collection>
+        <collection href="T_AP_Sicherheit">
+            <atom:title>T_AP_Sicherheit</atom:title>
+        </collection>
+        <collection href="T_AP_Sicherheit_History">
+            <atom:title>T_AP_Sicherheit_History</atom:title>
+        </collection>
+        <collection href="T_AP_Standort">
+            <atom:title>T_AP_Standort</atom:title>
+        </collection>
+        <collection href="T_AP_Standort_History">
+            <atom:title>T_AP_Standort_History</atom:title>
+        </collection>
+        <collection href="T_AP_StichtagVisualisierung">
+            <atom:title>T_AP_StichtagVisualisierung</atom:title>
+        </collection>
+        <collection href="T_AP_Trakt">
+            <atom:title>T_AP_Trakt</atom:title>
+        </collection>
+        <collection href="T_AP_Trakt_History">
+            <atom:title>T_AP_Trakt_History</atom:title>
+        </collection>
+        <collection href="T_AP_Tuer">
+            <atom:title>T_AP_Tuer</atom:title>
+        </collection>
+        <collection href="T_AP_Tuer_History">
+            <atom:title>T_AP_Tuer_History</atom:title>
+        </collection>
+        <collection href="T_AP_Zaehler">
+            <atom:title>T_AP_Zaehler</atom:title>
+        </collection>
+        <collection href="T_AP_Zone">
+            <atom:title>T_AP_Zone</atom:title>
+        </collection>
+        <collection href="T_AP_Zone_History">
+            <atom:title>T_AP_Zone_History</atom:title>
+        </collection>
+        <collection href="T_AP_Zylinder">
+            <atom:title>T_AP_Zylinder</atom:title>
+        </collection>
+        <collection href="T_AP_Zylinder_History">
+            <atom:title>T_AP_Zylinder_History</atom:title>
+        </collection>
+        <collection href="T_AV_AdresseKontaktpersonen">
+            <atom:title>T_AV_AdresseKontaktpersonen</atom:title>
+        </collection>
+        <collection href="T_AV_Adressen">
+            <atom:title>T_AV_Adressen</atom:title>
+        </collection>
+        <collection href="T_AV_Adressen_History">
+            <atom:title>T_AV_Adressen_History</atom:title>
+        </collection>
+        <collection href="T_AV_Ref_AdresseAnrede">
+            <atom:title>T_AV_Ref_AdresseAnrede</atom:title>
+        </collection>
+        <collection href="T_AV_Ref_AdresseRollen">
+            <atom:title>T_AV_Ref_AdresseRollen</atom:title>
+        </collection>
+        <collection href="T_AV_Ref_Region">
+            <atom:title>T_AV_Ref_Region</atom:title>
+        </collection>
+        <collection href="T_Benutzer">
+            <atom:title>T_Benutzer</atom:title>
+        </collection>
+        <collection href="T_Benutzer_Benutzergruppen">
+            <atom:title>T_Benutzer_Benutzergruppen</atom:title>
+        </collection>
+        <collection href="T_Benutzergruppen">
+            <atom:title>T_Benutzergruppen</atom:title>
+        </collection>
+        <collection href="T_Benutzerrechte">
+            <atom:title>T_Benutzerrechte</atom:title>
+        </collection>
+        <collection href="T_BO_History">
+            <atom:title>T_BO_History</atom:title>
+        </collection>
+        <collection href="T_BO_Menu">
+            <atom:title>T_BO_Menu</atom:title>
+        </collection>
+        <collection href="T_BO_Menu_CheckDelete">
+            <atom:title>T_BO_Menu_CheckDelete</atom:title>
+        </collection>
+        <collection href="T_COR_Error">
+            <atom:title>T_COR_Error</atom:title>
+        </collection>
+        <collection href="T_DMS_Configuration">
+            <atom:title>T_DMS_Configuration</atom:title>
+        </collection>
+        <collection href="T_DMS_ConfigurationTest">
+            <atom:title>T_DMS_ConfigurationTest</atom:title>
+        </collection>
+        <collection href="T_DMS_Dokument">
+            <atom:title>T_DMS_Dokument</atom:title>
+        </collection>
+        <collection href="T_DMS_Dokument_History">
+            <atom:title>T_DMS_Dokument_History</atom:title>
+        </collection>
+        <collection href="T_DMS_Dokument_Suche">
+            <atom:title>T_DMS_Dokument_Suche</atom:title>
+        </collection>
+        <collection href="T_DMS_Dokument_Version">
+            <atom:title>T_DMS_Dokument_Version</atom:title>
+        </collection>
+        <collection href="T_DMS_Fehlermeldungen">
+            <atom:title>T_DMS_Fehlermeldungen</atom:title>
+        </collection>
+        <collection href="T_DMS_Folder">
+            <atom:title>T_DMS_Folder</atom:title>
+        </collection>
+        <collection href="T_DMS_Folder_History">
+            <atom:title>T_DMS_Folder_History</atom:title>
+        </collection>
+        <collection href="T_DMS_Hotlinks">
+            <atom:title>T_DMS_Hotlinks</atom:title>
+        </collection>
+        <collection href="T_DMS_Log_UserData">
+            <atom:title>T_DMS_Log_UserData</atom:title>
+        </collection>
+        <collection href="T_DMS_Navigation">
+            <atom:title>T_DMS_Navigation</atom:title>
+        </collection>
+        <collection href="T_DMS_Process">
+            <atom:title>T_DMS_Process</atom:title>
+        </collection>
+        <collection href="T_DMS_Projekt">
+            <atom:title>T_DMS_Projekt</atom:title>
+        </collection>
+        <collection href="T_DMS_Projekt_History">
+            <atom:title>T_DMS_Projekt_History</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Bauphase">
+            <atom:title>T_DMS_Ref_Bauphase</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_DokumentArt">
+            <atom:title>T_DMS_Ref_DokumentArt</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_DokumentGruppe">
+            <atom:title>T_DMS_Ref_DokumentGruppe</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_DokumentGruppeGebaeude">
+            <atom:title>T_DMS_Ref_DokumentGruppeGebaeude</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_DokumentStatus">
+            <atom:title>T_DMS_Ref_DokumentStatus</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_DokumentTyp">
+            <atom:title>T_DMS_Ref_DokumentTyp</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_1">
+            <atom:title>T_DMS_Ref_Metadaten_1</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_1_old">
+            <atom:title>T_DMS_Ref_Metadaten_1_old</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_10">
+            <atom:title>T_DMS_Ref_Metadaten_10</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_2">
+            <atom:title>T_DMS_Ref_Metadaten_2</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_2_old">
+            <atom:title>T_DMS_Ref_Metadaten_2_old</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_3">
+            <atom:title>T_DMS_Ref_Metadaten_3</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_4">
+            <atom:title>T_DMS_Ref_Metadaten_4</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_4_Old">
+            <atom:title>T_DMS_Ref_Metadaten_4_Old</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_5">
+            <atom:title>T_DMS_Ref_Metadaten_5</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_6">
+            <atom:title>T_DMS_Ref_Metadaten_6</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_7">
+            <atom:title>T_DMS_Ref_Metadaten_7</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_8">
+            <atom:title>T_DMS_Ref_Metadaten_8</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Metadaten_9">
+            <atom:title>T_DMS_Ref_Metadaten_9</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_NodeType">
+            <atom:title>T_DMS_Ref_NodeType</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_Prozesse">
+            <atom:title>T_DMS_Ref_Prozesse</atom:title>
+        </collection>
+        <collection href="T_DMS_Ref_QualitaetspruefungDateityp">
+            <atom:title>T_DMS_Ref_QualitaetspruefungDateityp</atom:title>
+        </collection>
+        <collection href="T_DMS_Sessions">
+            <atom:title>T_DMS_Sessions</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_DokumentTyp">
+            <atom:title>T_DMS_SYS_DokumentTyp</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_FilterTyp">
+            <atom:title>T_DMS_SYS_FilterTyp</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_FilterZeitraum">
+            <atom:title>T_DMS_SYS_FilterZeitraum</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_HistoryTyp">
+            <atom:title>T_DMS_SYS_HistoryTyp</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_MetaKataloge">
+            <atom:title>T_DMS_SYS_MetaKataloge</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_MetaStruktur">
+            <atom:title>T_DMS_SYS_MetaStruktur</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_NavEdit">
+            <atom:title>T_DMS_SYS_NavEdit</atom:title>
+        </collection>
+        <collection href="T_DMS_SYS_NodePicture">
+            <atom:title>T_DMS_SYS_NodePicture</atom:title>
+        </collection>
+        <collection href="T_DMS_ZO_Berechtigungen">
+            <atom:title>T_DMS_ZO_Berechtigungen</atom:title>
+        </collection>
+        <collection href="T_DMS_ZO_Prozesse_Berechtigungen">
+            <atom:title>T_DMS_ZO_Prozesse_Berechtigungen</atom:title>
+        </collection>
+        <collection href="T_DMS_ZO_Standort_Sprache">
+            <atom:title>T_DMS_ZO_Standort_Sprache</atom:title>
+        </collection>
+        <collection href="T_Document">
+            <atom:title>T_Document</atom:title>
+        </collection>
+        <collection href="T_EM_EnergiePositionen">
+            <atom:title>T_EM_EnergiePositionen</atom:title>
+        </collection>
+        <collection href="T_EXPL_Funktion">
+            <atom:title>T_EXPL_Funktion</atom:title>
+        </collection>
+        <collection href="T_EXPL_FunktionKommando">
+            <atom:title>T_EXPL_FunktionKommando</atom:title>
+        </collection>
+        <collection href="T_EXPL_Icon">
+            <atom:title>T_EXPL_Icon</atom:title>
+        </collection>
+        <collection href="T_EXPL_Node">
+            <atom:title>T_EXPL_Node</atom:title>
+        </collection>
+        <collection href="T_EXPL_NodeHilfe">
+            <atom:title>T_EXPL_NodeHilfe</atom:title>
+        </collection>
+        <collection href="T_EXPL_Sprache">
+            <atom:title>T_EXPL_Sprache</atom:title>
+        </collection>
+        <collection href="T_EXPL_Text">
+            <atom:title>T_EXPL_Text</atom:title>
+        </collection>
+        <collection href="T_EXPL_User">
+            <atom:title>T_EXPL_User</atom:title>
+        </collection>
+        <collection href="T_Export_Raum">
+            <atom:title>T_Export_Raum</atom:title>
+        </collection>
+        <collection href="T_Export_Raum_History">
+            <atom:title>T_Export_Raum_History</atom:title>
+        </collection>
+        <collection href="T_FMS_Configuration">
+            <atom:title>T_FMS_Configuration</atom:title>
+        </collection>
+        <collection href="T_FMS_Dashboard">
+            <atom:title>T_FMS_Dashboard</atom:title>
+        </collection>
+        <collection href="T_FMS_Filter">
+            <atom:title>T_FMS_Filter</atom:title>
+        </collection>
+        <collection href="T_FMS_Navigation">
+            <atom:title>T_FMS_Navigation</atom:title>
+        </collection>
+        <collection href="T_FMS_Reports">
+            <atom:title>T_FMS_Reports</atom:title>
+        </collection>
+        <collection href="T_FMS_Translation">
+            <atom:title>T_FMS_Translation</atom:title>
+        </collection>
+        <collection href="T_FMS_ZO_Filter">
+            <atom:title>T_FMS_ZO_Filter</atom:title>
+        </collection>
+        <collection href="T_FMS_ZO_Filter_Dependency">
+            <atom:title>T_FMS_ZO_Filter_Dependency</atom:title>
+        </collection>
+        <collection href="T_FMS_ZO_Navigation">
+            <atom:title>T_FMS_ZO_Navigation</atom:title>
+        </collection>
+        <collection href="T_FMS_ZO_Navigation_Benutzer">
+            <atom:title>T_FMS_ZO_Navigation_Benutzer</atom:title>
+        </collection>
+        <collection href="T_Image">
+            <atom:title>T_Image</atom:title>
+        </collection>
+        <collection href="T_LOG_ERROR">
+            <atom:title>T_LOG_ERROR</atom:title>
+        </collection>
+        <collection href="T_LOG_ProzedurRun">
+            <atom:title>T_LOG_ProzedurRun</atom:title>
+        </collection>
+        <collection href="T_MM_AnmeldungEmpfaenger">
+            <atom:title>T_MM_AnmeldungEmpfaenger</atom:title>
+        </collection>
+        <collection href="T_MM_AnmeldungTag">
+            <atom:title>T_MM_AnmeldungTag</atom:title>
+        </collection>
+        <collection href="T_MM_Antrag">
+            <atom:title>T_MM_Antrag</atom:title>
+        </collection>
+        <collection href="T_MM_Antrag_History">
+            <atom:title>T_MM_Antrag_History</atom:title>
+        </collection>
+        <collection href="T_MM_Antrag_Kommentar">
+            <atom:title>T_MM_Antrag_Kommentar</atom:title>
+        </collection>
+        <collection href="T_MM_AusfuehrungsZeit">
+            <atom:title>T_MM_AusfuehrungsZeit</atom:title>
+        </collection>
+        <collection href="T_MM_MDWochenBereich">
+            <atom:title>T_MM_MDWochenBereich</atom:title>
+        </collection>
+        <collection href="T_MM_Ref_LetzteEMailAusfuehrungsZeit">
+            <atom:title>T_MM_Ref_LetzteEMailAusfuehrungsZeit</atom:title>
+        </collection>
+        <collection href="T_MM_Ref_ServiceAnbieter">
+            <atom:title>T_MM_Ref_ServiceAnbieter</atom:title>
+        </collection>
+        <collection href="T_MM_Ref_Status">
+            <atom:title>T_MM_Ref_Status</atom:title>
+        </collection>
+        <collection href="T_MM_Ref_UmzugTyp">
+            <atom:title>T_MM_Ref_UmzugTyp</atom:title>
+        </collection>
+        <collection href="T_MM_StatusAusfuehrungsZeit">
+            <atom:title>T_MM_StatusAusfuehrungsZeit</atom:title>
+        </collection>
+        <collection href="T_MM_Umzug">
+            <atom:title>T_MM_Umzug</atom:title>
+        </collection>
+        <collection href="T_MM_Umzug_Bestand">
+            <atom:title>T_MM_Umzug_Bestand</atom:title>
+        </collection>
+        <collection href="T_MM_Umzug_History">
+            <atom:title>T_MM_Umzug_History</atom:title>
+        </collection>
+        <collection href="T_MM_WochenUmzugTag">
+            <atom:title>T_MM_WochenUmzugTag</atom:title>
+        </collection>
+        <collection href="T_OR_Assignment">
+            <atom:title>T_OR_Assignment</atom:title>
+        </collection>
+        <collection href="T_OR_Assignment_Attendee">
+            <atom:title>T_OR_Assignment_Attendee</atom:title>
+        </collection>
+        <collection href="T_OR_Assignment_Services">
+            <atom:title>T_OR_Assignment_Services</atom:title>
+        </collection>
+        <collection href="T_OR_Configuration">
+            <atom:title>T_OR_Configuration</atom:title>
+        </collection>
+        <collection href="T_OR_Currency">
+            <atom:title>T_OR_Currency</atom:title>
+        </collection>
+        <collection href="T_OR_EMail">
+            <atom:title>T_OR_EMail</atom:title>
+        </collection>
+        <collection href="T_OR_Error">
+            <atom:title>T_OR_Error</atom:title>
+        </collection>
+        <collection href="T_OR_Ref_Assets">
+            <atom:title>T_OR_Ref_Assets</atom:title>
+        </collection>
+        <collection href="T_OR_Ref_General">
+            <atom:title>T_OR_Ref_General</atom:title>
+        </collection>
+        <collection href="T_OR_Service_Categories">
+            <atom:title>T_OR_Service_Categories</atom:title>
+        </collection>
+        <collection href="T_OR_Service_Options">
+            <atom:title>T_OR_Service_Options</atom:title>
+        </collection>
+        <collection href="T_OR_Services">
+            <atom:title>T_OR_Services</atom:title>
+        </collection>
+        <collection href="T_OR_ZO_Assets">
+            <atom:title>T_OR_ZO_Assets</atom:title>
+        </collection>
+        <collection href="T_OV_Ref_Attribute_BO">
+            <atom:title>T_OV_Ref_Attribute_BO</atom:title>
+        </collection>
+        <collection href="T_OV_Ref_BelegungArt">
+            <atom:title>T_OV_Ref_BelegungArt</atom:title>
+        </collection>
+        <collection href="T_OV_Ref_ObjektTyp">
+            <atom:title>T_OV_Ref_ObjektTyp</atom:title>
+        </collection>
+        <collection href="T_OV_SEL_Attribute_BO">
+            <atom:title>T_OV_SEL_Attribute_BO</atom:title>
+        </collection>
+        <collection href="T_PM_Buchungen">
+            <atom:title>T_PM_Buchungen</atom:title>
+        </collection>
+        <collection href="T_PM_Ref_ParkplatzBuchung">
+            <atom:title>T_PM_Ref_ParkplatzBuchung</atom:title>
+        </collection>
+        <collection href="T_POM_Mittelwert">
+            <atom:title>T_POM_Mittelwert</atom:title>
+        </collection>
+        <collection href="T_POM_Ref_MittelwertGruppe">
+            <atom:title>T_POM_Ref_MittelwertGruppe</atom:title>
+        </collection>
+        <collection href="T_Ref_ValidDocuments">
+            <atom:title>T_Ref_ValidDocuments</atom:title>
+        </collection>
+        <collection href="T_Ref_ValidPictures">
+            <atom:title>T_Ref_ValidPictures</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_AnzahlTag">
+            <atom:title>T_REM_Ref_AnzahlTag</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Arbeitsgang">
+            <atom:title>T_REM_Ref_Arbeitsgang</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Arbeitsgang_Leistung">
+            <atom:title>T_REM_Ref_Arbeitsgang_Leistung</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Ausbau">
+            <atom:title>T_REM_Ref_Ausbau</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Ausbau_Einheit">
+            <atom:title>T_REM_Ref_Ausbau_Einheit</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_BB_Beschaffenheit">
+            <atom:title>T_REM_Ref_BB_Beschaffenheit</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Bodenbelag">
+            <atom:title>T_REM_Ref_Bodenbelag</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Intervall">
+            <atom:title>T_REM_Ref_Intervall</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_MaschineGeraet">
+            <atom:title>T_REM_Ref_MaschineGeraet</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_RaumName">
+            <atom:title>T_REM_Ref_RaumName</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Reinigungsart">
+            <atom:title>T_REM_Ref_Reinigungsart</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Tagesplan">
+            <atom:title>T_REM_Ref_Tagesplan</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_TarifZeitnachweis">
+            <atom:title>T_REM_Ref_TarifZeitnachweis</atom:title>
+        </collection>
+        <collection href="T_REM_Ref_Vorlagen">
+            <atom:title>T_REM_Ref_Vorlagen</atom:title>
+        </collection>
+        <collection href="T_RPT_LOG_ProzedurRun">
+            <atom:title>T_RPT_LOG_ProzedurRun</atom:title>
+        </collection>
+        <collection href="T_RPT_Reports">
+            <atom:title>T_RPT_Reports</atom:title>
+        </collection>
+        <collection href="T_RPT_Settings">
+            <atom:title>T_RPT_Settings</atom:title>
+        </collection>
+        <collection href="T_RPT_Translations">
+            <atom:title>T_RPT_Translations</atom:title>
+        </collection>
+        <collection href="T_SessionValues">
+            <atom:title>T_SessionValues</atom:title>
+        </collection>
+        <collection href="T_SYS_ApertureColorToHex">
+            <atom:title>T_SYS_ApertureColorToHex</atom:title>
+        </collection>
+        <collection href="T_SYS_BackOfficeMenuerechte">
+            <atom:title>T_SYS_BackOfficeMenuerechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Backofficerechte">
+            <atom:title>T_SYS_Backofficerechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Berechtigung_Felder">
+            <atom:title>T_SYS_Berechtigung_Felder</atom:title>
+        </collection>
+        <collection href="T_SYS_Berechtigung_Tabellen">
+            <atom:title>T_SYS_Berechtigung_Tabellen</atom:title>
+        </collection>
+        <collection href="T_SYS_Dashboardrechte">
+            <atom:title>T_SYS_Dashboardrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_FilterHistory">
+            <atom:title>T_SYS_FilterHistory</atom:title>
+        </collection>
+        <collection href="T_SYS_Form_Feld_Recht">
+            <atom:title>T_SYS_Form_Feld_Recht</atom:title>
+        </collection>
+        <collection href="T_SYS_Form_Register_Recht">
+            <atom:title>T_SYS_Form_Register_Recht</atom:title>
+        </collection>
+        <collection href="T_SYS_Gebaeuderechte">
+            <atom:title>T_SYS_Gebaeuderechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Geschossrechte">
+            <atom:title>T_SYS_Geschossrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Language">
+            <atom:title>T_SYS_Language</atom:title>
+        </collection>
+        <collection href="T_SYS_Language_DayNames">
+            <atom:title>T_SYS_Language_DayNames</atom:title>
+        </collection>
+        <collection href="T_SYS_Language_Forms">
+            <atom:title>T_SYS_Language_Forms</atom:title>
+        </collection>
+        <collection href="T_SYS_Language_Forms_i18n">
+            <atom:title>T_SYS_Language_Forms_i18n</atom:title>
+        </collection>
+        <collection href="T_SYS_Language_Forms_i18n_Cust">
+            <atom:title>T_SYS_Language_Forms_i18n_Cust</atom:title>
+        </collection>
+        <collection href="T_SYS_Language_MonthNames">
+            <atom:title>T_SYS_Language_MonthNames</atom:title>
+        </collection>
+        <collection href="T_SYS_Layersetrechte">
+            <atom:title>T_SYS_Layersetrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Legendenkonfiguration">
+            <atom:title>T_SYS_Legendenkonfiguration</atom:title>
+        </collection>
+        <collection href="T_SYS_Module">
+            <atom:title>T_SYS_Module</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_COR">
+            <atom:title>T_SYS_Module_COR</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_Demo">
+            <atom:title>T_SYS_Module_Demo</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_Helsana">
+            <atom:title>T_SYS_Module_Helsana</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_Reichle">
+            <atom:title>T_SYS_Module_Reichle</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_SRG">
+            <atom:title>T_SYS_Module_SRG</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_Sursee">
+            <atom:title>T_SYS_Module_Sursee</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_SwissLife">
+            <atom:title>T_SYS_Module_SwissLife</atom:title>
+        </collection>
+        <collection href="T_SYS_Module_Wincasa">
+            <atom:title>T_SYS_Module_Wincasa</atom:title>
+        </collection>
+        <collection href="T_SYS_Navigationrechte">
+            <atom:title>T_SYS_Navigationrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_BackOfficeMenue">
+            <atom:title>T_SYS_Ref_BackOfficeMenue</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_BackOfficeSubMenue">
+            <atom:title>T_SYS_Ref_BackOfficeSubMenue</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_BelegungsTyp">
+            <atom:title>T_SYS_Ref_BelegungsTyp</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Dashboard">
+            <atom:title>T_SYS_Ref_Dashboard</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Language">
+            <atom:title>T_SYS_Ref_Language</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Layerset">
+            <atom:title>T_SYS_Ref_Layerset</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_MimeTypes">
+            <atom:title>T_SYS_Ref_MimeTypes</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Monate">
+            <atom:title>T_SYS_Ref_Monate</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_ObjectMarked">
+            <atom:title>T_SYS_Ref_ObjectMarked</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_PapierFormat">
+            <atom:title>T_SYS_Ref_PapierFormat</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Register">
+            <atom:title>T_SYS_Ref_Register</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Tage">
+            <atom:title>T_SYS_Ref_Tage</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Version">
+            <atom:title>T_SYS_Ref_Version</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_Zeit">
+            <atom:title>T_SYS_Ref_Zeit</atom:title>
+        </collection>
+        <collection href="T_SYS_Ref_ZeitEinheiten">
+            <atom:title>T_SYS_Ref_ZeitEinheiten</atom:title>
+        </collection>
+        <collection href="T_SYS_Registerrechte">
+            <atom:title>T_SYS_Registerrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Reportrechte">
+            <atom:title>T_SYS_Reportrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Settings">
+            <atom:title>T_SYS_Settings</atom:title>
+        </collection>
+        <collection href="T_SYS_Settings_Benutzer">
+            <atom:title>T_SYS_Settings_Benutzer</atom:title>
+        </collection>
+        <collection href="T_SYS_Settings_System">
+            <atom:title>T_SYS_Settings_System</atom:title>
+        </collection>
+        <collection href="T_SYS_Standortrechte">
+            <atom:title>T_SYS_Standortrechte</atom:title>
+        </collection>
+        <collection href="T_SYS_Version">
+            <atom:title>T_SYS_Version</atom:title>
+        </collection>
+        <collection href="T_SYS_VisualisierungStichtag">
+            <atom:title>T_SYS_VisualisierungStichtag</atom:title>
+        </collection>
+        <collection href="T_TM_Checklist_Value">
+            <atom:title>T_TM_Checklist_Value</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Abteilung">
+            <atom:title>T_TM_Ref_Abteilung</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Checkliste">
+            <atom:title>T_TM_Ref_Checkliste</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Checkliste_Absatz">
+            <atom:title>T_TM_Ref_Checkliste_Absatz</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Checkliste_Checkpoints">
+            <atom:title>T_TM_Ref_Checkliste_Checkpoints</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Checkliste_Details">
+            <atom:title>T_TM_Ref_Checkliste_Details</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Checkliste_Taetigkeit">
+            <atom:title>T_TM_Ref_Checkliste_Taetigkeit</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Checkliste_Wartung">
+            <atom:title>T_TM_Ref_Checkliste_Wartung</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_EmailText">
+            <atom:title>T_TM_Ref_EmailText</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_FilterAnzeige">
+            <atom:title>T_TM_Ref_FilterAnzeige</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_Periode">
+            <atom:title>T_TM_Ref_Periode</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_TaskArt">
+            <atom:title>T_TM_Ref_TaskArt</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_TaskKategorie">
+            <atom:title>T_TM_Ref_TaskKategorie</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_TaskPrio">
+            <atom:title>T_TM_Ref_TaskPrio</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_TaskStatus">
+            <atom:title>T_TM_Ref_TaskStatus</atom:title>
+        </collection>
+        <collection href="T_TM_Ref_ZyklusPeriode">
+            <atom:title>T_TM_Ref_ZyklusPeriode</atom:title>
+        </collection>
+        <collection href="T_TM_Tasks">
+            <atom:title>T_TM_Tasks</atom:title>
+        </collection>
+        <collection href="T_TM_Tasks_Checkpoints">
+            <atom:title>T_TM_Tasks_Checkpoints</atom:title>
+        </collection>
+        <collection href="T_TM_Tasks_Planung">
+            <atom:title>T_TM_Tasks_Planung</atom:title>
+        </collection>
+        <collection href="T_TM_Tasks_Planung_Checkpoints">
+            <atom:title>T_TM_Tasks_Planung_Checkpoints</atom:title>
+        </collection>
+        <collection href="T_UM_Planung">
+            <atom:title>T_UM_Planung</atom:title>
+        </collection>
+        <collection href="T_UM_Ref_Status">
+            <atom:title>T_UM_Ref_Status</atom:title>
+        </collection>
+        <collection href="T_UM_Umzug">
+            <atom:title>T_UM_Umzug</atom:title>
+        </collection>
+        <collection href="T_UPS_BudgetPositionen">
+            <atom:title>T_UPS_BudgetPositionen</atom:title>
+        </collection>
+        <collection href="T_UPS_Rechnungskontrolle">
+            <atom:title>T_UPS_Rechnungskontrolle</atom:title>
+        </collection>
+        <collection href="T_UPS_Ref_Baukostenplan">
+            <atom:title>T_UPS_Ref_Baukostenplan</atom:title>
+        </collection>
+        <collection href="T_UPS_Ref_FilterPlanungsvariante">
+            <atom:title>T_UPS_Ref_FilterPlanungsvariante</atom:title>
+        </collection>
+        <collection href="T_UPS_Ref_Kontoplan">
+            <atom:title>T_UPS_Ref_Kontoplan</atom:title>
+        </collection>
+        <collection href="T_UW_Ref_Bereich">
+            <atom:title>T_UW_Ref_Bereich</atom:title>
+        </collection>
+        <collection href="T_UW_Ref_Einheit">
+            <atom:title>T_UW_Ref_Einheit</atom:title>
+        </collection>
+        <collection href="T_UW_Ref_Position">
+            <atom:title>T_UW_Ref_Position</atom:title>
+        </collection>
+        <collection href="T_UW_Verbrauch">
+            <atom:title>T_UW_Verbrauch</atom:title>
+        </collection>
+        <collection href="T_VAR_Projekt">
+            <atom:title>T_VAR_Projekt</atom:title>
+        </collection>
+        <collection href="T_VAR_Variante">
+            <atom:title>T_VAR_Variante</atom:title>
+        </collection>
+        <collection href="T_VM_Ref_KostenPeriode">
+            <atom:title>T_VM_Ref_KostenPeriode</atom:title>
+        </collection>
+        <collection href="T_VM_Ref_Vertragspartei">
+            <atom:title>T_VM_Ref_Vertragspartei</atom:title>
+        </collection>
+        <collection href="T_VM_Ref_Vertragstyp">
+            <atom:title>T_VM_Ref_Vertragstyp</atom:title>
+        </collection>
+        <collection href="T_VM_Ref_Vertragszustaendigkeit">
+            <atom:title>T_VM_Ref_Vertragszustaendigkeit</atom:title>
+        </collection>
+        <collection href="T_VM_Vertraege">
+            <atom:title>T_VM_Vertraege</atom:title>
+        </collection>
+        <collection href="T_VM_Vertraege_History">
+            <atom:title>T_VM_Vertraege_History</atom:title>
+        </collection>
+        <collection href="T_VWS_PortalTree">
+            <atom:title>T_VWS_PortalTree</atom:title>
+        </collection>
+        <collection href="T_VWS_Ref_Auftragsart">
+            <atom:title>T_VWS_Ref_Auftragsart</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Anlage_DWG">
+            <atom:title>T_ZO_AP_Anlage_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Anschluss_DWG">
+            <atom:title>T_ZO_AP_Anschluss_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Arbeitsplatz_AP_Belegung">
+            <atom:title>T_ZO_AP_Arbeitsplatz_AP_Belegung</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Arbeitsplatz_AP_Ref_Kostenstelle">
+            <atom:title>T_ZO_AP_Arbeitsplatz_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Arbeitsplatz_AP_Ref_Organisationseinheit">
+            <atom:title>T_ZO_AP_Arbeitsplatz_AP_Ref_Organisationseinheit</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Arbeitsplatz_DWG">
+            <atom:title>T_ZO_AP_Arbeitsplatz_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Arbeitsplatz_Reservation">
+            <atom:title>T_ZO_AP_Arbeitsplatz_Reservation</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_AP_Belegung">
+            <atom:title>T_ZO_AP_Aussenobjekt_AP_Belegung</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_AP_Ref_Anmietvertraege">
+            <atom:title>T_ZO_AP_Aussenobjekt_AP_Ref_Anmietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_AP_Ref_AussenobjektAusbauten">
+            <atom:title>T_ZO_AP_Aussenobjekt_AP_Ref_AussenobjektAusbauten</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_AP_Ref_Kostenstelle">
+            <atom:title>T_ZO_AP_Aussenobjekt_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_AP_Ref_Mietobjekt">
+            <atom:title>T_ZO_AP_Aussenobjekt_AP_Ref_Mietobjekt</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_AP_Ref_Mietvertraege">
+            <atom:title>T_ZO_AP_Aussenobjekt_AP_Ref_Mietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_DWG">
+            <atom:title>T_ZO_AP_Aussenobjekt_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Aussenobjekt_Flaeche">
+            <atom:title>T_ZO_AP_Aussenobjekt_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Dokumente_AP_Ref_DokumentMetadaten">
+            <atom:title>T_ZO_AP_Dokumente_AP_Ref_DokumentMetadaten</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Dose_DWG">
+            <atom:title>T_ZO_AP_Dose_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Gebaeude_AP_Ref_AnlagaeKategorieSchema">
+            <atom:title>T_ZO_AP_Gebaeude_AP_Ref_AnlagaeKategorieSchema</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Gebaeude_DWG">
+            <atom:title>T_ZO_AP_Gebaeude_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Gebaeude_Flaeche">
+            <atom:title>T_ZO_AP_Gebaeude_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Geschoss_DWG">
+            <atom:title>T_ZO_AP_Geschoss_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Geschoss_Flaeche">
+            <atom:title>T_ZO_AP_Geschoss_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Grundstueck_DWG">
+            <atom:title>T_ZO_AP_Grundstueck_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Grundstueck_Flaeche">
+            <atom:title>T_ZO_AP_Grundstueck_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Informatik_DWG">
+            <atom:title>T_ZO_AP_Informatik_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kommunikation_DWG">
+            <atom:title>T_ZO_AP_Kommunikation_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kontakte_AP_Ref_Funktionen">
+            <atom:title>T_ZO_AP_Kontakte_AP_Ref_Funktionen</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kontakte_AP_Ref_Kostenstelle">
+            <atom:title>T_ZO_AP_Kontakte_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kontakte_AP_Ref_MitarbeiterAusruestung">
+            <atom:title>T_ZO_AP_Kontakte_AP_Ref_MitarbeiterAusruestung</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kontakte_AP_Ref_Organisationseinheit">
+            <atom:title>T_ZO_AP_Kontakte_AP_Ref_Organisationseinheit</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kontakte_AP_Ref_PersonalKategorie">
+            <atom:title>T_ZO_AP_Kontakte_AP_Ref_PersonalKategorie</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kunst_DWG">
+            <atom:title>T_ZO_AP_Kunst_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Kunst_Kosten">
+            <atom:title>T_ZO_AP_Kunst_Kosten</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Mobiliar_DWG">
+            <atom:title>T_ZO_AP_Mobiliar_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Objekt_AP_Kontakte">
+            <atom:title>T_ZO_AP_Objekt_AP_Kontakte</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Objekt_AP_Vertrag">
+            <atom:title>T_ZO_AP_Objekt_AP_Vertrag</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AP_Belegung">
+            <atom:title>T_ZO_AP_Parkplatz_AP_Belegung</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AP_Kontakte">
+            <atom:title>T_ZO_AP_Parkplatz_AP_Kontakte</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AP_Ref_Anmietvertraege">
+            <atom:title>T_ZO_AP_Parkplatz_AP_Ref_Anmietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AP_Ref_Kostenstelle">
+            <atom:title>T_ZO_AP_Parkplatz_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AP_Ref_Mietobjekt">
+            <atom:title>T_ZO_AP_Parkplatz_AP_Ref_Mietobjekt</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AP_Ref_Mietvertraege">
+            <atom:title>T_ZO_AP_Parkplatz_AP_Ref_Mietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_AV_Adressen">
+            <atom:title>T_ZO_AP_Parkplatz_AV_Adressen</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_DWG">
+            <atom:title>T_ZO_AP_Parkplatz_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_Flaeche">
+            <atom:title>T_ZO_AP_Parkplatz_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Parkplatz_Reservation">
+            <atom:title>T_ZO_AP_Parkplatz_Reservation</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Anmietvertraege">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Anmietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Energiebezugsart">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Energiebezugsart</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Kostenstelle">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Mietobjekt">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Mietobjekt</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Mietvertraege">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Mietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Nutzungsart">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Nutzungsart</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Organisationseinheit">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Organisationseinheit</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche_Geschoss">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche_Geschoss</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche_Parkplatz">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche_Parkplatz</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche_Parkplatz_Geschoss">
+            <atom:title>T_ZO_AP_Raum_AP_Ref_Zuschlagsflaeche_Parkplatz_Geschoss</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_DWG">
+            <atom:title>T_ZO_AP_Raum_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_Flaeche">
+            <atom:title>T_ZO_AP_Raum_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_OBJT_Kategorie">
+            <atom:title>T_ZO_AP_Raum_OBJT_Kategorie</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Raum_Reservation">
+            <atom:title>T_ZO_AP_Raum_Reservation</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Ref_AnlageKategorie_AP_Ref_AnlageKategorieSchema">
+            <atom:title>T_ZO_AP_Ref_AnlageKategorie_AP_Ref_AnlageKategorieSchema</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Ref_Arbeitsplatzkategorie_AP_Ref_MobiliarBibliothek">
+            <atom:title>T_ZO_AP_Ref_Arbeitsplatzkategorie_AP_Ref_MobiliarBibliothek</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Schluessel_AP_Kontakte">
+            <atom:title>T_ZO_AP_Schluessel_AP_Kontakte</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Schluesselgruppe_AP_Ref_Funktionen">
+            <atom:title>T_ZO_AP_Schluesselgruppe_AP_Ref_Funktionen</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Schluesselgruppe_AP_Zylinder">
+            <atom:title>T_ZO_AP_Schluesselgruppe_AP_Zylinder</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_SHOW_Geschoss_Reinigungsplanung">
+            <atom:title>T_ZO_AP_SHOW_Geschoss_Reinigungsplanung</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Sicherheit_DWG">
+            <atom:title>T_ZO_AP_Sicherheit_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Standort_DWG">
+            <atom:title>T_ZO_AP_Standort_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Trakt_DWG">
+            <atom:title>T_ZO_AP_Trakt_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Tuer_DWG">
+            <atom:title>T_ZO_AP_Tuer_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Tuer_Schliessung">
+            <atom:title>T_ZO_AP_Tuer_Schliessung</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zaehler_DWG">
+            <atom:title>T_ZO_AP_Zaehler_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_AP_Ref_Anmietvertraege">
+            <atom:title>T_ZO_AP_Zone_AP_Ref_Anmietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_AP_Ref_Kostenstelle">
+            <atom:title>T_ZO_AP_Zone_AP_Ref_Kostenstelle</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_AP_Ref_Mietobjekt">
+            <atom:title>T_ZO_AP_Zone_AP_Ref_Mietobjekt</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_AP_Ref_Mietvertraege">
+            <atom:title>T_ZO_AP_Zone_AP_Ref_Mietvertraege</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_AP_Ref_Organisationseinheit">
+            <atom:title>T_ZO_AP_Zone_AP_Ref_Organisationseinheit</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_DWG">
+            <atom:title>T_ZO_AP_Zone_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zone_Flaeche">
+            <atom:title>T_ZO_AP_Zone_Flaeche</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_Zylinder_DWG">
+            <atom:title>T_ZO_AP_Zylinder_DWG</atom:title>
+        </collection>
+        <collection href="T_ZO_AV_Adresse_AV_Ref_AdresseRollen">
+            <atom:title>T_ZO_AV_Adresse_AV_Ref_AdresseRollen</atom:title>
+        </collection>
+        <collection href="T_ZO_Benutzer_Schedule">
+            <atom:title>T_ZO_Benutzer_Schedule</atom:title>
+        </collection>
+        <collection href="T_ZO_MM_Bestand_Umzug">
+            <atom:title>T_ZO_MM_Bestand_Umzug</atom:title>
+        </collection>
+        <collection href="T_ZO_MM_Standort_ServiceAnbieter">
+            <atom:title>T_ZO_MM_Standort_ServiceAnbieter</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_ObjektSymbol">
+            <atom:title>T_ZO_OV_Ref_ObjektSymbol</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_ObjektSymbol_Objekt">
+            <atom:title>T_ZO_OV_Ref_ObjektSymbol_Objekt</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_ObjektSymbol_T_SYS_Ref_Layerset">
+            <atom:title>T_ZO_OV_Ref_ObjektSymbol_T_SYS_Ref_Layerset</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_ObjektText">
+            <atom:title>T_ZO_OV_Ref_ObjektText</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_Objekttyp_AP_Ref_Mandant">
+            <atom:title>T_ZO_OV_Ref_Objekttyp_AP_Ref_Mandant</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_Objekttyp_T_SYS_Ref_Register">
+            <atom:title>T_ZO_OV_Ref_Objekttyp_T_SYS_Ref_Register</atom:title>
+        </collection>
+        <collection href="T_ZO_OV_Ref_Objekttyp_TM_Ref_Checkliste">
+            <atom:title>T_ZO_OV_Ref_Objekttyp_TM_Ref_Checkliste</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Gebaeude_Ref_Raumpfleger">
+            <atom:title>T_ZO_REM_AP_Gebaeude_Ref_Raumpfleger</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Planung_Ref_Raum">
+            <atom:title>T_ZO_REM_AP_Planung_Ref_Raum</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Ausstattung">
+            <atom:title>T_ZO_REM_AP_Raum_Ausstattung</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Ausstattung_Kalk">
+            <atom:title>T_ZO_REM_AP_Raum_Ausstattung_Kalk</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Raumgruppe">
+            <atom:title>T_ZO_REM_AP_Raum_Raumgruppe</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Ref_Ausbau">
+            <atom:title>T_ZO_REM_AP_Raum_Ref_Ausbau</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Ref_Ausbau_Kalk">
+            <atom:title>T_ZO_REM_AP_Raum_Ref_Ausbau_Kalk</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Ref_Reinigungsart">
+            <atom:title>T_ZO_REM_AP_Raum_Ref_Reinigungsart</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Ref_Reinigungsart_Kalk">
+            <atom:title>T_ZO_REM_AP_Raum_Ref_Reinigungsart_Kalk</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Reinigung">
+            <atom:title>T_ZO_REM_AP_Raum_Reinigung</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Raum_Reinigung_Kalk">
+            <atom:title>T_ZO_REM_AP_Raum_Reinigung_Kalk</atom:title>
+        </collection>
+        <collection href="T_ZO_REM_AP_Standort_Planung">
+            <atom:title>T_ZO_REM_AP_Standort_Planung</atom:title>
+        </collection>
+        <collection href="T_ZO_SYS_Language_Forms_OV_Ref_ObjektTyp">
+            <atom:title>T_ZO_SYS_Language_Forms_OV_Ref_ObjektTyp</atom:title>
+        </collection>
+        <collection href="T_ZO_SYS_Module_AP_Ref_Mandant">
+            <atom:title>T_ZO_SYS_Module_AP_Ref_Mandant</atom:title>
+        </collection>
+        <collection href="T_ZO_SYS_Settings_AP_Ref_Mandant">
+            <atom:title>T_ZO_SYS_Settings_AP_Ref_Mandant</atom:title>
+        </collection>
+        <collection href="T_ZO_SYS_Settings_Benutzer">
+            <atom:title>T_ZO_SYS_Settings_Benutzer</atom:title>
+        </collection>
+        <collection href="T_ZO_TASK_Ref_Checkliste_Comment">
+            <atom:title>T_ZO_TASK_Ref_Checkliste_Comment</atom:title>
+        </collection>
+        <collection href="T_ZO_TM_TSTA_TSK">
+            <atom:title>T_ZO_TM_TSTA_TSK</atom:title>
+        </collection>
+        <collection href="T_AP_Zaehler_Staende">
+            <atom:title>T_AP_Zaehler_Staende</atom:title>
+        </collection>
+        <collection href="T_COR_Log">
+            <atom:title>T_COR_Log</atom:title>
+        </collection>
+        <collection href="T_FMS_Dashboard_27082014">
+            <atom:title>T_FMS_Dashboard_27082014</atom:title>
+        </collection>
+        <collection href="T_FMS_Translation_Export">
+            <atom:title>T_FMS_Translation_Export</atom:title>
+        </collection>
+        <collection href="T_Import_PLZ_Region">
+            <atom:title>T_Import_PLZ_Region</atom:title>
+        </collection>
+        <collection href="T_RPT_Translations111">
+            <atom:title>T_RPT_Translations111</atom:title>
+        </collection>
+        <collection href="T_SYS_Language_Backup_22092014">
+            <atom:title>T_SYS_Language_Backup_22092014</atom:title>
+        </collection>
+        <collection href="T_TM_Schedule">
+            <atom:title>T_TM_Schedule</atom:title>
+        </collection>
+        <collection href="T_ZO_AP_MarkDWG">
+            <atom:title>T_ZO_AP_MarkDWG</atom:title>
+        </collection>
+    </workspace>
+</service>

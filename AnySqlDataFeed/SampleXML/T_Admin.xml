@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xml:base="http://localhost:5570/ExcelDataFeed.svc/">
+<id>http://localhost:5570/ExcelDataFeed.svc/T_Admin</id>
+<title type="text">T_Admin</title>
+<updated>2015-08-26T15:29:19Z</updated>
+<link rel="self" title="T_Admin" href="T_Admin"/>
+<entry>
+    <id>http://localhost:5570/ExcelDataFeed.svc/T_Admin(guid'6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad')</id>
+    <category term="COR_Basic_DemoModel.T_Admin" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link rel="edit" title="T_Admin" href="T_Admin(guid'6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad')"/>
+    <title/>
+    <updated>2015-08-26T15:29:19Z</updated>
+    <author>
+        <name/>
+    </author>
+    <content type="application/xml">
+      <m:properties>
+          <d:AD_UID m:type="Edm.Guid">6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad</d:AD_UID>
+          <d:AD_User>hbd_cafm</d:AD_User>
+          <d:AD_Password>DrpC0u2ZJp0=</d:AD_Password>
+          <d:AD_Level m:type="Edm.Byte">1</d:AD_Level>
+      </m:properties>
+  </content>
+</entry>
+<entry>
+    <id>http://localhost:5570/ExcelDataFeed.svc/T_Admin(guid'58e094e1-7cd6-4930-abb1-6530dce751ea')</id>
+    <category term="COR_Basic_DemoModel.T_Admin" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+    <link rel="edit" title="T_Admin" href="T_Admin(guid'58e094e1-7cd6-4930-abb1-6530dce751ea')"/>
+    <title/>
+    <updated>2015-08-26T15:29:19Z</updated>
+    <author>
+        <name/>
+    </author>
+    <content type="application/xml">
+    <m:properties>
+        <d:AD_UID m:type="Edm.Guid">58e094e1-7cd6-4930-abb1-6530dce751ea</d:AD_UID>
+        <d:AD_User>administrator</d:AD_User>
+        <d:AD_Password>DrvL1V44KXo=</d:AD_Password>
+        <d:AD_Level m:type="Edm.Byte">0</d:AD_Level>
+    </m:properties>
+</content>
+</entry>
+</feed>

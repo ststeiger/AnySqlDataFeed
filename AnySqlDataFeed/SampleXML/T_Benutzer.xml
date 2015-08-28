@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="http://localhost:5698/ExcelDataFeed.svc/" xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+  <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer</id>
+  <title type="text">T_Benutzer</title>
+  <updated>2015-08-27T22:06:11Z</updated>
+  <link rel="self" title="T_Benutzer" href="T_Benutzer" />
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(4)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(4)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(4)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(4)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(4)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(4)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(4)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(4)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(4)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(4)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(4)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(4)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(4)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(4)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(4)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(4)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(4)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(4)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(4)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(4)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(4)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">4</d:BE_ID>
+        <d:BE_Name>Schindler</d:BE_Name>
+        <d:BE_Vorname>Stefan</d:BE_Vorname>
+        <d:BE_User>stefan.schindler</d:BE_User>
+        <d:BE_Passwort>TjO2I5iAj0g=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>718522035F42B47B55C8157A08202805</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">0</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(6)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(6)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(6)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(6)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(6)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(6)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(6)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(6)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(6)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(6)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(6)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(6)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(6)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(6)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(6)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(6)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(6)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(6)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(6)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(6)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(6)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">6</d:BE_ID>
+        <d:BE_Name>Hartmann</d:BE_Name>
+        <d:BE_Vorname>Thomas</d:BE_Vorname>
+        <d:BE_User>Thomas.Hartmann</d:BE_User>
+        <d:BE_Passwort>RKZuu/M3sQU=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>e958c1292d8a70c7d8b723f7b0d8b583</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">0</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email m:null="true" />
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(50)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(50)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(50)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(50)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(50)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(50)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(50)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(50)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(50)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(50)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(50)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(50)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(50)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(50)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(50)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(50)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(50)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(50)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(50)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(50)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(50)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">50</d:BE_ID>
+        <d:BE_Name>COR</d:BE_Name>
+        <d:BE_Vorname>GmbH</d:BE_Vorname>
+        <d:BE_User>COR</d:BE_User>
+        <d:BE_Passwort>sVg4b6En5/A=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>cebd65946444e5cd3e861a2dbf69e221</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">0</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email m:null="true" />
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12435)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12435)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12435)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12435)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12435)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12435)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12435)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12435)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12435)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12435)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12435)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12435)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12435)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12435)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12435)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12435)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12435)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12435)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12435)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12435)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12435)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12435</d:BE_ID>
+        <d:BE_Name>Administrator</d:BE_Name>
+        <d:BE_Vorname>DE</d:BE_Vorname>
+        <d:BE_User>administrator</d:BE_User>
+        <d:BE_Passwort>DbxyXerMqkVueCazlrLsNw==</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>200CEB26807D6BF99FD6F4F0D1CA54D4</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">true</d:BE_Hide>
+        <d:BE_Email>admin@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr></d:BE_TelNr>
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>ACFA37B5283152B7B2EBC402017E2104</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32">0</d:BE_Augen>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12544)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12544)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12544)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12544)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12544)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12544)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12544)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12544)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12544)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12544)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12544)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12544)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12544)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12544)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12544)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12544)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12544)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12544)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12544)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12544)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12544)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12544</d:BE_ID>
+        <d:BE_Name>Hafner</d:BE_Name>
+        <d:BE_Vorname>Hanspeter</d:BE_Vorname>
+        <d:BE_User>hanspeter.hafner</d:BE_User>
+        <d:BE_Passwort>9zGD8hQdXXldxbj+wRu92Q==</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>4CF721379FA1319C0174E3FB5F0F2F9C</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean" m:null="true" />
+        <d:BE_Email>hafner@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr></d:BE_TelNr>
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>6a338565ecd32c0aa8bdb8a4f2768936</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12545)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12545)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12545)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12545)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12545)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12545)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12545)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12545)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12545)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12545)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12545)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12545)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12545)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12545)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12545)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12545)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12545)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12545)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12545)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12545)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12545)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12545</d:BE_ID>
+        <d:BE_Name>Buehler</d:BE_Name>
+        <d:BE_Vorname>Reto</d:BE_Vorname>
+        <d:BE_User>reto.buehler</d:BE_User>
+        <d:BE_Passwort>arZdldrxI0opz6ZOOAcRZF3FuP7BG73Z</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>73BB6360680E6F027A60E3D17AA47AAF</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean" m:null="true" />
+        <d:BE_Email>admin@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">0</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12546)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12546)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12546)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12546)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12546)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12546)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12546)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12546)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12546)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12546)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12546)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12546)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12546)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12546)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12546)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12546)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12546)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12546)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12546)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12546)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12546)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12546</d:BE_ID>
+        <d:BE_Name>Ruedi</d:BE_Name>
+        <d:BE_Vorname>Angehrn</d:BE_Vorname>
+        <d:BE_User>ruedi.angehrn</d:BE_User>
+        <d:BE_Passwort>DrvL1V44KXo=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>3D539FD386CA11059B527A1EE6816DDC</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene>COR</d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean" m:null="true" />
+        <d:BE_Email m:null="true" />
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12547)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12547)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12547)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12547)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12547)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12547)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12547)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12547)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12547)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12547)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12547)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12547)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12547)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12547)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12547)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12547)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12547)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12547)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12547)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12547)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12547)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12547</d:BE_ID>
+        <d:BE_Name>cor</d:BE_Name>
+        <d:BE_Vorname>fmsuite</d:BE_Vorname>
+        <d:BE_User>corfmsuite</d:BE_User>
+        <d:BE_Passwort>C6qPbCPzeKEEVhsdRtU5RA==</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>84D3C968D6C440A527E3F056C71D4A7A</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email m:null="true" />
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12548)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12548)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12548)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12548)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12548)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12548)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12548)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12548)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12548)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12548)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12548)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12548)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12548)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12548)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12548)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12548)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12548)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12548)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12548)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12548)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12548)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12548</d:BE_ID>
+        <d:BE_Name>Luder</d:BE_Name>
+        <d:BE_Vorname>Rico</d:BE_Vorname>
+        <d:BE_User>rico</d:BE_User>
+        <d:BE_Passwort>kValR/6bVCc=</d:BE_Passwort>
+        <d:BE_Language>EN</d:BE_Language>
+        <d:BE_Hash>BE89E250D8388C5E7DED2F1630E5DAA4</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>rico.luder@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>7838249AD0BC4ED488191959657BD47A</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12549)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12549)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12549)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12549)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12549)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12549)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12549)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12549)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12549)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12549)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12549)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12549)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12549)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12549)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12549)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12549)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12549)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12549)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12549)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12549)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12549)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12549</d:BE_ID>
+        <d:BE_Name>1</d:BE_Name>
+        <d:BE_Vorname>Dienstleister</d:BE_Vorname>
+        <d:BE_User>dienstleister1</d:BE_User>
+        <d:BE_Passwort>RKZuu/M3sQU=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>47CB7DAAF3B26068810B865A5414C0AC</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>Dienstleister@cor.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12550)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12550)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12550)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12550)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12550)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12550)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12550)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12550)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12550)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12550)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12550)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12550)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12550)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12550)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12550)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12550)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12550)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12550)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12550)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12550)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12550)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12550</d:BE_ID>
+        <d:BE_Name>2</d:BE_Name>
+        <d:BE_Vorname>Dienstleister</d:BE_Vorname>
+        <d:BE_User>dienstleister2</d:BE_User>
+        <d:BE_Passwort>RKZuu/M3sQU=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>7EBBB8B98ECBA9D77584CBC06D430DC6</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>Dienstleister@cor.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12551)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12551)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12551)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12551)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12551)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12551)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12551)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12551)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12551)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12551)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12551)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12551)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12551)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12551)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12551)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12551)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12551)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12551)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12551)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12551)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12551)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12551</d:BE_ID>
+        <d:BE_Name>1</d:BE_Name>
+        <d:BE_Vorname>Dispatcher</d:BE_Vorname>
+        <d:BE_User>dispatcher1</d:BE_User>
+        <d:BE_Passwort>RKZuu/M3sQU=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>00386D875419AF87DFECC71FC81583FC</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>Dispatcher@cor.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12552)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12552)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12552)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12552)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12552)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12552)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12552)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12552)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12552)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12552)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12552)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12552)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12552)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12552)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12552)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12552)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12552)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12552)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12552)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12552)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12552)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12552</d:BE_ID>
+        <d:BE_Name>2</d:BE_Name>
+        <d:BE_Vorname>Dispatcher</d:BE_Vorname>
+        <d:BE_User>dispatcher2</d:BE_User>
+        <d:BE_Passwort>RKZuu/M3sQU=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>DEA3E65BC579F53DC3D2BD3ECC2C7A0B</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>Dispatcher@cor.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12555)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12555)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12555)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12555)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12555)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12555)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12555)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12555)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12555)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12555)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12555)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12555)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12555)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12555)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12555)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12555)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12555)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12555)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12555)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12555)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12555)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12555</d:BE_ID>
+        <d:BE_Name>Camillo</d:BE_Name>
+        <d:BE_Vorname></d:BE_Vorname>
+        <d:BE_User>r2</d:BE_User>
+        <d:BE_Passwort>/Iiw1tm/M4g=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>D279186428A75016B17E4DF5EA43D080</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene></d:BE_Domaene>
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>ressource@planer.com</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">0</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12556)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12556)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12556)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12556)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12556)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12556)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12556)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12556)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12556)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12556)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12556)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12556)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12556)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12556)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12556)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12556)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12556)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12556)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12556)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12556)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12556)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12556</d:BE_ID>
+        <d:BE_Name>Lötscher</d:BE_Name>
+        <d:BE_Vorname>H</d:BE_Vorname>
+        <d:BE_User></d:BE_User>
+        <d:BE_Passwort>XcW4/sEbvdk=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>D41D8CD98F00B204E9800998ECF8427E</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12560)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12560)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12560)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12560)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12560)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12560)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12560)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12560)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12560)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12560)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12560)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12560)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12560)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12560)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12560)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12560)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12560)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12560)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12560)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12560)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12560)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12560</d:BE_ID>
+        <d:BE_Name>Luder</d:BE_Name>
+        <d:BE_Vorname>Rico</d:BE_Vorname>
+        <d:BE_User>ricotest</d:BE_User>
+        <d:BE_Passwort>kValR/6bVCc=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>F6867B2065B6914A6ACCDC631C027664</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12561)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12561)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12561)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12561)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12561)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12561)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12561)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12561)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12561)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12561)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12561)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12561)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12561)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12561)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12561)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12561)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12561)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12561)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12561)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12561)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12561)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12561</d:BE_ID>
+        <d:BE_Name>E. Rator</d:BE_Name>
+        <d:BE_Vorname>Mod</d:BE_Vorname>
+        <d:BE_User>basic</d:BE_User>
+        <d:BE_Passwort>BN91NED4uL0=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>F17AAABC20BFE045075927934FED52D2</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12565)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12565)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12565)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12565)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12565)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12565)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12565)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12565)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12565)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12565)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12565)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12565)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12565)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12565)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12565)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12565)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12565)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12565)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12565)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12565)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12565)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12565</d:BE_ID>
+        <d:BE_Name>Hämmerli</d:BE_Name>
+        <d:BE_Vorname>Nando</d:BE_Vorname>
+        <d:BE_User>nando</d:BE_User>
+        <d:BE_Passwort>c85KP/AzdZY=</d:BE_Passwort>
+        <d:BE_Language>EN</d:BE_Language>
+        <d:BE_Hash>45A9A31E5F1FF59621B681A5EDBFFE85</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>nando.haemmerli@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12566)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12566)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12566)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12566)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12566)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12566)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12566)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12566)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12566)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12566)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12566)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12566)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12566)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12566)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12566)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12566)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12566)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12566)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12566)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12566)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12566)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12566</d:BE_ID>
+        <d:BE_Name>got</d:BE_Name>
+        <d:BE_Vorname>root ?</d:BE_Vorname>
+        <d:BE_User>root</d:BE_User>
+        <d:BE_Passwort>DrvL1V44KXo=</d:BE_Passwort>
+        <d:BE_Language>EN</d:BE_Language>
+        <d:BE_Hash>63A9F0EA7BB98050796B649E85481845</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>root@root.com</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>DC17F08904FEE5879E51D7239B415472</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12567)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12567)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12567)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12567)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12567)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12567)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12567)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12567)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12567)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12567)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12567)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12567)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12567)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12567)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12567)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12567)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12567)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12567)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12567)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12567)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12567)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12567</d:BE_ID>
+        <d:BE_Name>Gast</d:BE_Name>
+        <d:BE_Vorname>Firma 1</d:BE_Vorname>
+        <d:BE_User>gast.firma1</d:BE_User>
+        <d:BE_Passwort>DrvL1V44KXo=</d:BE_Passwort>
+        <d:BE_Language m:null="true" />
+        <d:BE_Hash m:null="true" />
+        <d:BE_Level m:type="Edm.Byte">99</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>angehrn@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">true</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12568)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12568)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12568)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12568)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12568)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12568)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12568)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12568)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12568)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12568)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12568)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12568)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12568)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12568)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12568)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12568)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12568)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12568)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12568)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12568)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12568)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12568</d:BE_ID>
+        <d:BE_Name>Gast</d:BE_Name>
+        <d:BE_Vorname>Firma 2</d:BE_Vorname>
+        <d:BE_User>gast.firma2</d:BE_User>
+        <d:BE_Passwort>DrvL1V44KXo=</d:BE_Passwort>
+        <d:BE_Language m:null="true" />
+        <d:BE_Hash m:null="true" />
+        <d:BE_Level m:type="Edm.Byte">99</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>angehrn@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash m:null="true" />
+        <d:BE_IsGuest m:type="Edm.Boolean">true</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12569)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12569)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12569)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12569)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12569)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12569)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12569)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12569)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12569)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12569)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12569)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12569)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12569)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12569)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12569)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12569)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12569)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12569)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12569)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12569)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12569)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12569</d:BE_ID>
+        <d:BE_Name>Chabis</d:BE_Name>
+        <d:BE_Vorname>Chopf</d:BE_Vorname>
+        <d:BE_User>chabis</d:BE_User>
+        <d:BE_Passwort>ThzwiIgaq9o=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>2E2A75BF93F1FD2567409BA61BAB5E6B</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>ChabisChopf@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">0</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12570)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12570)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12570)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12570)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12570)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12570)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12570)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12570)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12570)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12570)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12570)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12570)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12570)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12570)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12570)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12570)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12570)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12570)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12570)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12570)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12570)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12570</d:BE_ID>
+        <d:BE_Name>Administrateur</d:BE_Name>
+        <d:BE_Vorname>FR</d:BE_Vorname>
+        <d:BE_User>administrateur</d:BE_User>
+        <d:BE_Passwort>DrvL1V44KXo=</d:BE_Passwort>
+        <d:BE_Language>FR</d:BE_Language>
+        <d:BE_Hash>372EEFFABA2B5B61FB02513ECB84F1FF</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email>administrateur@cor-management.ch</d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>25E32BB77235998A3943959996245E40</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12571)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12571)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12571)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12571)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12571)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12571)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12571)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12571)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12571)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12571)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12571)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12571)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12571)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12571)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12571)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12571)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12571)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12571)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12571)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12571)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12571)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12571</d:BE_ID>
+        <d:BE_Name>Amministratore</d:BE_Name>
+        <d:BE_Vorname>IT</d:BE_Vorname>
+        <d:BE_User>amministratore</d:BE_User>
+        <d:BE_Passwort>bDT4QG9iicyf42hoRpQseA==</d:BE_Passwort>
+        <d:BE_Language>IT</d:BE_Language>
+        <d:BE_Hash>E792CD9665119B1244E8AFCF36FB5F48</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>A2F4A70989DEE2055E534D50D2DEB8CD</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32">0</d:BE_Augen>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12572)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12572)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12572)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12572)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12572)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12572)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12572)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12572)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12572)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12572)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12572)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12572)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12572)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12572)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12572)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12572)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12572)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12572)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12572)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12572)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12572)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12572</d:BE_ID>
+        <d:BE_Name>Admin</d:BE_Name>
+        <d:BE_Vorname>EN</d:BE_Vorname>
+        <d:BE_User>admin</d:BE_User>
+        <d:BE_Passwort>DrvL1V44KXo=</d:BE_Passwort>
+        <d:BE_Language>EN</d:BE_Language>
+        <d:BE_Hash>21232F297A57A5A743894A0E4A801FC3</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>7CD82B0E82C18F5C0EDAEF085897F9AF</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12574)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12574)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12574)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12574)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12574)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12574)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12574)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12574)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12574)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12574)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12574)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12574)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12574)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12574)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12574)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12574)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12574)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12574)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12574)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12574)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12574)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12574</d:BE_ID>
+        <d:BE_Name>test</d:BE_Name>
+        <d:BE_Vorname></d:BE_Vorname>
+        <d:BE_User>test</d:BE_User>
+        <d:BE_Passwort>HLa3Hi/+NBE=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>098F6BCD4621D373CADE4E832627B4F6</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12576)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12576)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12576)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12576)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12576)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12576)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12576)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12576)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12576)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12576)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12576)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12576)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12576)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12576)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12576)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12576)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12576)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12576)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12576)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12576)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12576)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12576</d:BE_ID>
+        <d:BE_Name>Visconti</d:BE_Name>
+        <d:BE_Vorname>Fabio</d:BE_Vorname>
+        <d:BE_User>fabio.visconti</d:BE_User>
+        <d:BE_Passwort>Ifx5uiPVTyA=</d:BE_Passwort>
+        <d:BE_Language>IT</d:BE_Language>
+        <d:BE_Hash>D6B684AB88DE875DF932495F3A3DF1A6</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash>947D1E1E632F5902A4A0F8044B7CCE14</d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12577)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12577)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12577)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12577)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12577)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12577)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12577)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12577)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12577)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12577)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12577)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12577)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12577)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12577)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12577)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12577)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12577)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12577)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12577)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12577)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12577)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12577</d:BE_ID>
+        <d:BE_Name>key1</d:BE_Name>
+        <d:BE_Vorname></d:BE_Vorname>
+        <d:BE_User>key1</d:BE_User>
+        <d:BE_Passwort>yagslkEev2s=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>C2ADD694BF942DC77B376592D9C862CD</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://localhost:5698/ExcelDataFeed.svc/T_Benutzer(12578)</id>
+    <category term="COR_Basic_DemoModel.T_Benutzer" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <link rel="edit" title="T_Benutzer" href="T_Benutzer(12578)" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente" type="application/atom+xml;type=feed" title="T_AP_Dokumente" href="T_Benutzer(12578)/T_AP_Dokumente" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Dokumente_Log" type="application/atom+xml;type=feed" title="T_AP_Dokumente_Log" href="T_Benutzer(12578)/T_AP_Dokumente_Log" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_Benutzer_Benutzergruppen" type="application/atom+xml;type=feed" title="T_Benutzer_Benutzergruppen" href="T_Benutzer(12578)/T_Benutzer_Benutzergruppen" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation_Benutzer" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation_Benutzer" href="T_Benutzer(12578)/T_FMS_ZO_Navigation_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_FMS_ZO_Navigation" type="application/atom+xml;type=feed" title="T_FMS_ZO_Navigation" href="T_Benutzer(12578)/T_FMS_ZO_Navigation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_SYS_Ref_Version" type="application/atom+xml;type=feed" title="T_SYS_Ref_Version" href="T_Benutzer(12578)/T_SYS_Ref_Version" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung" href="T_Benutzer(12578)/T_TM_Tasks_Planung" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks_Planung1" type="application/atom+xml;type=feed" title="T_TM_Tasks_Planung1" href="T_Benutzer(12578)/T_TM_Tasks_Planung1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks" type="application/atom+xml;type=feed" title="T_TM_Tasks" href="T_Benutzer(12578)/T_TM_Tasks" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_TM_Tasks1" type="application/atom+xml;type=feed" title="T_TM_Tasks1" href="T_Benutzer(12578)/T_TM_Tasks1" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_UPS_Rechnungskontrolle" type="application/atom+xml;type=feed" title="T_UPS_Rechnungskontrolle" href="T_Benutzer(12578)/T_UPS_Rechnungskontrolle" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Arbeitsplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Arbeitsplatz_Reservation" href="T_Benutzer(12578)/T_ZO_AP_Arbeitsplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_MarkDWG" type="application/atom+xml;type=feed" title="T_ZO_AP_MarkDWG" href="T_Benutzer(12578)/T_ZO_AP_MarkDWG" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Parkplatz_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Parkplatz_Reservation" href="T_Benutzer(12578)/T_ZO_AP_Parkplatz_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Raum_Reservation" type="application/atom+xml;type=feed" title="T_ZO_AP_Raum_Reservation" href="T_Benutzer(12578)/T_ZO_AP_Raum_Reservation" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" href="T_Benutzer(12578)/T_ZO_AP_Zylinder_AP_Schluesselgruppe_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_Benutzer_Schedule" type="application/atom+xml;type=entry" title="T_ZO_Benutzer_Schedule" href="T_Benutzer(12578)/T_ZO_Benutzer_Schedule" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_ZO_SYS_Settings_Benutzer" type="application/atom+xml;type=feed" title="T_ZO_SYS_Settings_Benutzer" href="T_Benutzer(12578)/T_ZO_SYS_Settings_Benutzer" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/T_AP_Ref_Mandant" type="application/atom+xml;type=feed" title="T_AP_Ref_Mandant" href="T_Benutzer(12578)/T_AP_Ref_Mandant" />
+    <title />
+    <updated>2015-08-27T22:06:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <content type="application/xml">
+      <m:properties>
+        <d:BE_ID m:type="Edm.Int32">12578</d:BE_ID>
+        <d:BE_Name>key2</d:BE_Name>
+        <d:BE_Vorname></d:BE_Vorname>
+        <d:BE_User>key2</d:BE_User>
+        <d:BE_Passwort>8BDzY4ZeNPw=</d:BE_Passwort>
+        <d:BE_Language>DE</d:BE_Language>
+        <d:BE_Hash>78F825AAA0103319AAA1A30BF4FE3ADA</d:BE_Hash>
+        <d:BE_Level m:type="Edm.Byte">1</d:BE_Level>
+        <d:BE_isLDAPSync m:type="Edm.Boolean">false</d:BE_isLDAPSync>
+        <d:BE_Domaene m:null="true" />
+        <d:BE_Hide m:type="Edm.Boolean">false</d:BE_Hide>
+        <d:BE_Email></d:BE_Email>
+        <d:BE_TelNr m:null="true" />
+        <d:BE_CurrencyID m:type="Edm.Int32">1</d:BE_CurrencyID>
+        <d:BE_Status m:type="Edm.Int32">1</d:BE_Status>
+        <d:BE_IsCOR_Hash></d:BE_IsCOR_Hash>
+        <d:BE_IsGuest m:type="Edm.Boolean">false</d:BE_IsGuest>
+        <d:BE_Augen m:type="Edm.Int32" m:null="true" />
+      </m:properties>
+    </content>
+  </entry>
+</feed>

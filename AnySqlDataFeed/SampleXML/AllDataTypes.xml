@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="COR_Basic_SwisscomModel" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityType Name="C___AllTypes">
+        <Key>
+          <PropertyRef Name="mybigint" />
+        </Key>
+        <Property Name="mybigint" Type="Edm.Int64" Nullable="false" />
+        <Property Name="myfixedbinary" Type="Edm.Binary" MaxLength="50" FixedLength="true" />
+        <Property Name="mybit" Type="Edm.Boolean" />
+        <Property Name="myfixedchar" Type="Edm.String" MaxLength="10" FixedLength="true" Unicode="false" />
+        <Property Name="mydate" Type="Edm.DateTime" Precision="0" />
+        <Property Name="mydatetime" Type="Edm.DateTime" Precision="3" />
+        <Property Name="mydatetime2_7" Type="Edm.DateTime" Precision="7" />
+        <Property Name="mydatetimeoffset_7" Type="Edm.DateTimeOffset" Precision="7" />
+        <Property Name="mydecimal_18_3" Type="Edm.Decimal" Precision="18" Scale="3" />
+        <Property Name="myfloat" Type="Edm.Double" />
+        <Property Name="myimage" Type="Edm.Binary" MaxLength="Max" FixedLength="false" />
+        <Property Name="myint" Type="Edm.Int32" />
+        <Property Name="mymoney" Type="Edm.Decimal" Precision="19" Scale="4" />
+        <Property Name="myfixednchar" Type="Edm.String" MaxLength="10" FixedLength="true" Unicode="true" />
+        <Property Name="myntext" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        <Property Name="mynumeric_18_3" Type="Edm.Decimal" Precision="18" Scale="3" />
+        <Property Name="mynvarchar" Type="Edm.String" MaxLength="50" FixedLength="false" Unicode="true" />
+        <Property Name="mynvarcharMAX" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        <Property Name="myreal" Type="Edm.Single" />
+        <Property Name="mysmalldatetime" Type="Edm.DateTime" Precision="0" />
+        <Property Name="mysmallint" Type="Edm.Int16" />
+        <Property Name="mysmallmoney" Type="Edm.Decimal" Precision="10" Scale="4" />
+        <Property Name="mytext" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        <Property Name="mytime_7" Type="Edm.Time" Precision="7" />
+        <Property Name="mytimestamp" Type="Edm.Binary" MaxLength="8" FixedLength="true" p6:StoreGeneratedPattern="Computed" xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="mytinyint" Type="Edm.Byte" />
+        <Property Name="myuniqueidentifier" Type="Edm.Guid" />
+        <Property Name="myvarbinary" Type="Edm.Binary" MaxLength="50" FixedLength="false" />
+        <Property Name="myvarbinaryMAX" Type="Edm.Binary" MaxLength="Max" FixedLength="false" />
+        <Property Name="myvarchar" Type="Edm.String" MaxLength="50" FixedLength="false" Unicode="false" />
+        <Property Name="myvarcharMAX" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        <Property Name="myxml" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true" />
+      </EntityType>
+    </Schema>
+    <Schema Namespace="SqlServerDataFeed" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <EntityContainer Name="Entities" m:IsDefaultEntityContainer="true" p6:LazyLoadingEnabled="true" xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntitySet Name="C___AllTypes" EntityType="COR_Basic_SwisscomModel.C___AllTypes" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>
