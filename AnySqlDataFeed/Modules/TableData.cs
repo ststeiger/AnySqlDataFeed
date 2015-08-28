@@ -80,43 +80,56 @@ namespace AnySqlDataFeed.XML
 
             public void WriteXml(System.Xml.XmlWriter writer)
             {
-                // serialize other members as attributes
-
-                foreach (System.Data.DataRow dr in m_schema.Rows)
+                try
                 {
-                    string columnName = System.Convert.ToString(dr["column_name"]);
-                    string entityType = System.Convert.ToString(dr["EntityType"]);
-                    string data = null;
+                    // serialize other members as attributes
 
-                    // 2014-11-26T12:30:53.967
-                    if (object.ReferenceEquals(m_data.Table.Columns[columnName].DataType, typeof(DateTime)))
+                    foreach (System.Data.DataRow dr in m_schema.Rows)
                     {
-                        if (m_data[columnName] == System.DBNull.Value)
-                            data = null;
-                        else
+                        string columnName = System.Convert.ToString(dr["column_name"]);
+                        string entityType = System.Convert.ToString(dr["EntityType"]);
+                        string data = null;
+
+                        // 2014-11-26T12:30:53.967
+                        if (object.ReferenceEquals(m_data.Table.Columns[columnName].DataType, typeof(DateTime)))
                         {
-                            System.DateTime dat = (System.DateTime)m_data[columnName];
-                            data = dat.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff", System.Globalization.CultureInfo.InvariantCulture);
+                            if (m_data[columnName] == System.DBNull.Value)
+                                data = null;
+                            else
+                            {
+                                System.DateTime dat = (System.DateTime)m_data[columnName];
+                                data = dat.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff", System.Globalization.CultureInfo.InvariantCulture);
+                            }
                         }
-                    }
-                    else
-                        data = System.Convert.ToString(m_data[columnName], System.Globalization.CultureInfo.InvariantCulture);
+                        else
+                            data = System.Convert.ToString(m_data[columnName], System.Globalization.CultureInfo.InvariantCulture);
 
-                    // LoLz
-                    if (IsDevelopment)
-                        OptionallyDecryptPassword(ref data, columnName);
+                        // LoLz
+                        if (IsDevelopment)
+                            OptionallyDecryptPassword(ref data, columnName);
 
-                    writer.WriteStartElement("d:" + columnName);
+                        writer.WriteStartElement("d:" + columnName);
 
-                    if (!StringComparer.Ordinal.Equals(entityType, "Edm.String"))
-                        writer.WriteAttributeString("m:type", entityType);
+                        if (!StringComparer.Ordinal.Equals(entityType, "Edm.String"))
+                            writer.WriteAttributeString("m:type", entityType);
 
-                    if(string.IsNullOrEmpty(data))
-                        writer.WriteAttributeString("m:null", "true");
-                    
-                    writer.WriteValue(data);
-                    writer.WriteEndElement();
+                        if (string.IsNullOrEmpty(data))
+                            writer.WriteAttributeString("m:null", "true");
+
+                        if (data != null)
+                            writer.WriteValue(data);
+
+                        writer.WriteEndElement();
+
+                    } // Next dr
+
                 }
+                catch (Exception ex)
+                {
+                    System.Console.WriteLine(ex.Message);
+                    throw;
+                }
+            
 
                 /*
                 // <d:AD_UID m:type="Edm.Guid">6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad</d:AD_UID>

@@ -123,7 +123,7 @@ namespace AnySqlDataFeed.XML
                             writer.WriteValue(data);
 
                         writer.WriteEndElement();
-                    }
+                    } // Next dr 
 
 
                 }
