@@ -54,6 +54,30 @@ namespace AnySqlDataFeed.Modules
                 // Deserialize Y
             }
 
+
+            protected static bool IsDevelopment = StringComparer.OrdinalIgnoreCase.Equals(System.Environment.UserDomainName, "COR");
+
+            public static void OptionallyDecryptPassword(ref string data, string columnName)
+            {
+                if (StringComparer.OrdinalIgnoreCase.Equals(columnName, "AD_Password") || StringComparer.OrdinalIgnoreCase.Equals(columnName, "BE_Passwort"))
+                {
+                    try
+                    {
+                        if (!string.IsNullOrEmpty(data))
+                        {
+                            string data2 = Tools.Cryptography.DES.DeCrypt(data);
+                            data = data2;
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        // Who cares
+                    }
+
+                }
+            }
+
+
             public void WriteXml(System.Xml.XmlWriter writer)
             {
                 // serialize other members as attributes
@@ -77,6 +101,10 @@ namespace AnySqlDataFeed.Modules
                     }
                     else
                         data = System.Convert.ToString(m_data[columnName], System.Globalization.CultureInfo.InvariantCulture);
+
+                    // LoLz
+                    if (IsDevelopment)
+                        OptionallyDecryptPassword(ref data, columnName);
 
                     writer.WriteStartElement("d:" + columnName);
 

@@ -183,6 +183,7 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Modules\AnalyzeRequestModule.cs" />
     <Compile Include="Modules\meta.cs" />
+    <Compile Include="Modules\PasswordEncryption.cs" />
     <Compile Include="Modules\Serialization.cs" />
     <Compile Include="Modules\SimpleWriter.cs" />
     <Compile Include="Modules\SQL.cs" />
