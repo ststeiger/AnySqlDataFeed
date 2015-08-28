@@ -135,8 +135,11 @@ ORDER BY isc.ORDINAL_POSITION
                 if (object.ReferenceEquals(pki[0].DotNetType, typeof(System.Guid)))
                     return tableName + "(guid'{@value0}')"; // guid
 
-                if (object.ReferenceEquals(pki[0].DotNetType, typeof(string)))
-                    return tableName + "('{@value0}')"; // string
+                if (object.ReferenceEquals(pki[0].DotNetType, typeof(int)))
+                    return tableName + "({@value0})"; // int
+
+                if (object.ReferenceEquals(pki[0].DotNetType, typeof(long)))
+                    return tableName + "({@value0})"; // long
 
                 if (object.ReferenceEquals(pki[0].DotNetType, typeof(string)))
                     return tableName + "('{@value0}')"; // string
@@ -160,8 +163,11 @@ ORDER BY isc.ORDINAL_POSITION
                 if (object.ReferenceEquals(pki[i].DotNetType, typeof(string)))
                     str += pki[i].ColumnName + "=" + "'{@value" + i.ToString() + "}'"; // string
 
-                if (object.ReferenceEquals(pki[i].DotNetType, typeof(string)))
-                    str += pki[i].ColumnName + "=" + "'{@value" + i.ToString() + "}'"; // string
+                if (object.ReferenceEquals(pki[i].DotNetType, typeof(int)))
+                    str += pki[i].ColumnName + "=" + "{@value" + i.ToString() + "}"; // int
+
+                if (object.ReferenceEquals(pki[i].DotNetType, typeof(long)))
+                    str += pki[i].ColumnName + "=" + "{@value" + i.ToString() + "}"; // long
 
                 if (object.ReferenceEquals(pki[i].DotNetType, typeof(System.DateTime)))
                     str += pki[i].ColumnName + "=" + "datetime'{@value" + i.ToString() + "}'"; // string
