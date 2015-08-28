@@ -100,6 +100,7 @@ LEFT JOIN INFORMATION_SCHEMA.COLUMNS AS isc
 WHERE (1=1) 
 AND istc.CONSTRAINT_TYPE = 'PRIMARY KEY' 
 AND istc.TABLE_NAME LIKE '" + tableName.Replace("'", "''") + @"' 
+AND istc.table_schema NOT IN ('pg_catalog', 'information_schema') 
 
 ORDER BY isc.ORDINAL_POSITION 
 ";
@@ -349,7 +350,8 @@ ORDER BY ORDINAL_POSITION
             // feed.Base = "http://localhost:5570/ExcelDataFeed.svc/";
             feed.Base = baseURL;
 
-            feed.Xmlns = "http://www.w3.org/2005/Atom";
+            if(Environment.OSVersion.Platform != PlatformID.Unix)
+                feed.Xmlns = "http://www.w3.org/2005/Atom";
 
             feed.D = "http://schemas.microsoft.com/ado/2007/08/dataservices";
             feed.M = "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata";

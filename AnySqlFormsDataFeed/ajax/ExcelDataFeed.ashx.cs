@@ -1,9 +1,13 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Web;
 
+
 namespace AnySqlFormsDataFeed.ajax
 {
+
+
     /// <summary>
     /// Zusammenfassungsbeschreibung für ExcelDataFeed
     /// </summary>
@@ -13,11 +17,16 @@ namespace AnySqlFormsDataFeed.ajax
 
         public void ProcessRequest(HttpContext context)
         {
-            string url = context.Request.Url.OriginalString;
             const string handlerName = "/ExcelDataFeed.ashx";
-            int pos = System.Globalization.CultureInfo.InvariantCulture.CompareInfo.IndexOf(url, handlerName, System.Globalization.CompareOptions.IgnoreCase);
 
-            string table_name = url.Substring(pos + handlerName.Length);
+            int pos = System.Globalization.CultureInfo.InvariantCulture.CompareInfo.IndexOf(
+                 context.Request.Url.OriginalString
+                ,handlerName, System.Globalization.CompareOptions.IgnoreCase
+            );
+
+            string table_name = "";
+            if(pos != -1)
+                table_name = context.Request.Url.OriginalString.Substring(pos + handlerName.Length);
 
             if (table_name.StartsWith("?"))
                 table_name = table_name.Substring(1);
@@ -26,7 +35,8 @@ namespace AnySqlFormsDataFeed.ajax
                 table_name = table_name.Substring(1);
 
             AnySqlDataFeed.DataFeed.SendFeed(table_name);
-        }
+        } // End Sub ProcessRequest
+
 
         public bool IsReusable
         {
@@ -35,5 +45,9 @@ namespace AnySqlFormsDataFeed.ajax
                 return false;
             }
         }
-    }
-}
+
+
+    } // End Class ExcelDataFeed : IHttpHandler
+
+
+} // End Namespace AnySqlFormsDataFeed.ajax 
