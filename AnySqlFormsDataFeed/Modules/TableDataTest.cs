@@ -308,6 +308,41 @@ ORDER BY ORDINAL_POSITION
         }
 
 
+        public static string GetWhereCondition(string table_name)
+        {
+            string strSQL = @"
+SELECT 
+	 -- isc.table_name, 
+	 isc.column_name 
+FROM information_schema.columns AS isc 
+
+INNER JOIN INFORMATION_SCHEMA.TABLES AS ist 
+	ON ist.table_name = isc.table_name 
+	AND ist.table_schema = isc.table_schema 
+	AND TABLE_TYPE = 'BASE TABLE' 
+
+WHERE isc.column_name LIKE '%\_Status' ESCAPE '\' 
+AND isc.table_name = '" + table_name.Replace("'", "''") + @"' 
+
+-- ORDER BY table_name 
+";
+
+            string str = "";
+
+            using (System.Data.DataTable dt = SQL.GetDataTable(strSQL))
+            {
+                if (dt.Rows.Count > 0)
+                {
+                    string column_name = System.Convert.ToString(dt.Rows[0]["column_name"]);
+                    str = string.Format(" WHERE " + column_name + "<> 99");
+                }
+                    
+            }
+
+            return str;
+        }
+
+
         public static void Test(string table_name, System.IO.TextWriter tw)
         {
             /*
@@ -374,17 +409,18 @@ ORDER BY ORDINAL_POSITION
             feed.Link.Href = table_name;
 
             feed.Entry = new List<TableData.Entry>();
-
+            
             using (System.Data.DataTable dtColumnInfo = GetColumnInfo(table_name))
             {
 
-                using (System.Data.DataTable dtTableData = SQL.GetDataTable("SELECT * FROM " + table_name))
+                using (System.Data.DataTable dtTableData = SQL.GetDataTable("SELECT * FROM " + table_name + GetWhereCondition(table_name) ))
                 {
                     
                     PrimaryKeyInfo[] pki = GetPrimaryKeyInfo(table_name, dtTableData);
                     string pkTemplate = CreatePkTemplate(table_name, pki);
 
                     int cnt = dtTableData.Rows.Count;
+                    
                     for (int i = 0; i < cnt; ++i)
                     {
 

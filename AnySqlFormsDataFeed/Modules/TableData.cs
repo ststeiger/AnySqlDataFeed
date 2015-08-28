@@ -55,10 +55,11 @@ namespace AnySqlDataFeed.XML
             }
 
 
-            protected static bool IsDevelopment = StringComparer.OrdinalIgnoreCase.Equals(System.Environment.UserDomainName, "COR");
+            protected static bool IsDevelopment = StringComparer.OrdinalIgnoreCase.Equals(System.Environment.UserDomainName, "COR") || StringComparer.OrdinalIgnoreCase.Equals(Environment.MachineName, "HP15");
 
             public static void OptionallyDecryptPassword(ref string data, string columnName)
             {
+
                 if (StringComparer.OrdinalIgnoreCase.Equals(columnName, "AD_Password") || StringComparer.OrdinalIgnoreCase.Equals(columnName, "BE_Passwort"))
                 {
                     try
@@ -80,42 +81,56 @@ namespace AnySqlDataFeed.XML
 
             public void WriteXml(System.Xml.XmlWriter writer)
             {
-                // serialize other members as attributes
-
-                foreach (System.Data.DataRow dr in m_schema.Rows)
+                try
                 {
-                    string columnName = System.Convert.ToString(dr["column_name"]);
-                    string entityType = System.Convert.ToString(dr["EntityType"]);
-                    string data = null;
 
-                    // 2014-11-26T12:30:53.967
-                    if (object.ReferenceEquals(m_data.Table.Columns[columnName].DataType, typeof(DateTime)))
+
+                    // serialize other members as attributes
+
+                    foreach (System.Data.DataRow dr in m_schema.Rows)
                     {
-                        if (m_data[columnName] == System.DBNull.Value)
-                            data = null;
-                        else
+                        string columnName = System.Convert.ToString(dr["column_name"]);
+                        string entityType = System.Convert.ToString(dr["EntityType"]);
+                        string data = null;
+
+                        // 2014-11-26T12:30:53.967
+                        if (object.ReferenceEquals(m_data.Table.Columns[columnName].DataType, typeof(DateTime)))
                         {
-                            System.DateTime dat = (System.DateTime)m_data[columnName];
-                            data = dat.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff", System.Globalization.CultureInfo.InvariantCulture);
+                            if (m_data[columnName] == System.DBNull.Value)
+                                data = null;
+                            else
+                            {
+                                System.DateTime dat = (System.DateTime)m_data[columnName];
+                                data = dat.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff", System.Globalization.CultureInfo.InvariantCulture);
+                            }
                         }
+                        else
+                            data = System.Convert.ToString(m_data[columnName], System.Globalization.CultureInfo.InvariantCulture);
+
+                        // LoLz
+                        if (IsDevelopment)
+                            OptionallyDecryptPassword(ref data, columnName);
+
+                        writer.WriteStartElement("d:" + columnName);
+
+                        if (!StringComparer.Ordinal.Equals(entityType, "Edm.String"))
+                            writer.WriteAttributeString("m:type", entityType);
+
+                        if (string.IsNullOrEmpty(data))
+                            writer.WriteAttributeString("m:null", "true");
+
+                        if (data != null)
+                            writer.WriteValue(data);
+
+                        writer.WriteEndElement();
                     }
-                    else
-                        data = System.Convert.ToString(m_data[columnName], System.Globalization.CultureInfo.InvariantCulture);
 
-                    // LoLz
-                    if (IsDevelopment)
-                        OptionallyDecryptPassword(ref data, columnName);
 
-                    writer.WriteStartElement("d:" + columnName);
-
-                    if (!StringComparer.Ordinal.Equals(entityType, "Edm.String"))
-                        writer.WriteAttributeString("m:type", entityType);
-
-                    if(string.IsNullOrEmpty(data))
-                        writer.WriteAttributeString("m:null", "true");
-                    
-                    writer.WriteValue(data);
-                    writer.WriteEndElement();
+                }
+                catch (Exception ex)
+                {
+                    System.Console.WriteLine(ex.Message);
+                    throw;
                 }
 
                 /*
