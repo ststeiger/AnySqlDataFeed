@@ -20,15 +20,19 @@ namespace AnySqlDataFeed.XML
 
             private System.Data.DataTable m_schema;
             private System.Data.DataRow m_data;
+            private MyXmlEncoder m_XmlEndcoder;
 
             public MyProperties()
-            { }
+            {
+                this.m_XmlEndcoder = new MyXmlEncoder();
+            }
 
 
             public MyProperties(System.Data.DataTable schema, System.Data.DataRow data)
-            { 
-                m_schema = schema;
-                m_data = data;
+            {
+                this.m_schema = schema;
+                this.m_data = data;
+                this.m_XmlEndcoder = new MyXmlEncoder();
             }
 
 
@@ -55,10 +59,11 @@ namespace AnySqlDataFeed.XML
             }
 
 
-            protected static bool IsDevelopment = StringComparer.OrdinalIgnoreCase.Equals(System.Environment.UserDomainName, "COR");
+            protected static bool IsDevelopment = StringComparer.OrdinalIgnoreCase.Equals(System.Environment.UserDomainName, "COR") || StringComparer.OrdinalIgnoreCase.Equals(Environment.MachineName, "HP15");
 
             public static void OptionallyDecryptPassword(ref string data, string columnName)
             {
+
                 if (StringComparer.OrdinalIgnoreCase.Equals(columnName, "AD_Password") || StringComparer.OrdinalIgnoreCase.Equals(columnName, "BE_Passwort"))
                 {
                     try
@@ -82,8 +87,6 @@ namespace AnySqlDataFeed.XML
             {
                 try
                 {
-                    // serialize other members as attributes
-
                     foreach (System.Data.DataRow dr in m_schema.Rows)
                     {
                         string columnName = System.Convert.ToString(dr["column_name"]);
@@ -101,6 +104,19 @@ namespace AnySqlDataFeed.XML
                                 data = dat.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff", System.Globalization.CultureInfo.InvariantCulture);
                             }
                         }
+                        else if (object.ReferenceEquals(m_data.Table.Columns[columnName].DataType, typeof(byte[])))
+                        {
+                            if (m_data[columnName] != System.DBNull.Value)
+                            {
+                                byte[] dat = (byte[])m_data[columnName];
+
+                                if (dat != null)
+                                {
+                                    data = System.Convert.ToBase64String(dat);
+                                }
+                            }
+
+                        }
                         else
                             data = System.Convert.ToString(m_data[columnName], System.Globalization.CultureInfo.InvariantCulture);
 
@@ -117,11 +133,21 @@ namespace AnySqlDataFeed.XML
                             writer.WriteAttributeString("m:null", "true");
 
                         if (data != null)
-                            writer.WriteValue(data);
+                        {
+                            // writer.WriteValue(data);
+
+                            if (System.StringComparer.OrdinalIgnoreCase.Equals(columnName, "KU_Bemerkung"))
+                                System.Console.WriteLine(data);
+
+                            // string str = System.Security.SecurityElement.Escape(data)
+                            string str = m_XmlEndcoder.XmlEscape(data);
+                            writer.WriteRaw(str);
+                        }
+
 
                         writer.WriteEndElement();
+                    } // Next dr 
 
-                    } // Next dr
 
                 }
                 catch (Exception ex)
@@ -129,32 +155,92 @@ namespace AnySqlDataFeed.XML
                     System.Console.WriteLine(ex.Message);
                     throw;
                 }
-            
 
-                /*
-                // <d:AD_UID m:type="Edm.Guid">6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad</d:AD_UID>
-                writer.WriteStartElement("d:" + "AD_UID");
-                writer.WriteAttributeString("m:type", "Edm.Guid");
-                writer.WriteValue(System.Guid.NewGuid().ToString());
-                writer.WriteEndElement();
 
-                //<d:AD_User>hbd_cafm</d:AD_User>
-                writer.WriteStartElement("d:" + "AD_User");
-                writer.WriteValue("hbd_cafm");
-                writer.WriteEndElement();
+                //// <d:AD_UID m:type="Edm.Guid">6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad</d:AD_UID>
+                //writer.WriteStartElement("d:" + "AD_UID");
+                //writer.WriteAttributeString("m:type", "Edm.Guid");
+                //writer.WriteValue(System.Guid.NewGuid().ToString());
+                //writer.WriteEndElement();
 
-                // <d:AD_Password>DrpC0u2ZJp0=</d:AD_Password>
-                writer.WriteStartElement("d:" + "AD_Password");
-                writer.WriteValue("DrpC0u2ZJp0=");
-                writer.WriteEndElement();
+                ////<d:AD_User>hbd_cafm</d:AD_User>
+                //writer.WriteStartElement("d:" + "AD_User");
+                //writer.WriteValue("hbd_cafm");
+                //writer.WriteEndElement();
 
-                // <d:AD_Level m:type="Edm.Byte">1</d:AD_Level>
-                writer.WriteStartElement("d:" + "AD_Level");
-                writer.WriteAttributeString("m:type", "Edm.Byte");
-                writer.WriteValue(1);
-                writer.WriteEndElement();
-                */
+                //// <d:AD_Password>DrpC0u2ZJp0=</d:AD_Password>
+                //writer.WriteStartElement("d:" + "AD_Password");
+                //writer.WriteValue("DrpC0u2ZJp0=");
+                //writer.WriteEndElement();
+
+                //// <d:AD_Level m:type="Edm.Byte">1</d:AD_Level>
+                //writer.WriteStartElement("d:" + "AD_Level");
+                //writer.WriteAttributeString("m:type", "Edm.Byte");
+                //writer.WriteValue(1);
+                //writer.WriteEndElement();
             }
+
+
+            // http://stackoverflow.com/questions/1132494/string-escape-into-xml/22958657#22958657
+            public class MyXmlEncoder
+            {
+                private System.Xml.XmlDocument m_doc;
+                private System.Xml.XmlNode m_node;
+
+                public MyXmlEncoder()
+                {
+                    m_doc = new System.Xml.XmlDocument();
+                    m_node = m_doc.CreateElement("root");
+                }
+
+
+                public string XmlEscape(string unescaped)
+                {
+                    m_node.InnerText = unescaped;
+
+                    string sanitizedXmlEncodedString = m_node.InnerXml.Replace("&#xB;", "");
+                    return sanitizedXmlEncodedString;
+                }
+
+
+                // Does not work with Excel...
+                public static string SpecialXmlEscape(string input)
+                {
+                    //string content = System.Xml.XmlConvert.EncodeName("\t");
+                    //string content = System.Security.SecurityElement.Escape("\t");
+                    //string strDelimiter = System.Web.HttpUtility.HtmlEncode("\t"); // XmlEscape("\t"); //XmlDecode("&#09;");
+                    //strDelimiter = XmlUnescape("&#59;");
+                    //Console.WriteLine(strDelimiter);
+                    //Console.WriteLine(string.Format("&#{0};", (int)';'));
+                    //Console.WriteLine(System.Text.Encoding.ASCII.HeaderName);
+                    //Console.WriteLine(System.Text.Encoding.UTF8.HeaderName);
+
+
+                    string strXmlText = "";
+
+                    if (string.IsNullOrEmpty(input))
+                    {
+                        return input;
+                    }
+
+
+                    System.Text.StringBuilder sb = new System.Text.StringBuilder();
+
+                    for (int i = 0; i <= input.Length - 1; i++)
+                    {
+                        sb.AppendFormat("&#{0};", (int)input[i]);
+                    }
+
+                    strXmlText = sb.ToString();
+                    sb.Length = 0;
+                    sb = null;
+
+                    return strXmlText;
+                } // End Function SpecialXmlEscape
+
+            } // End Class MyXmlEncoder
+
+
 
             private void SeekElement(System.Xml.XmlReader reader, string elementName)
             {

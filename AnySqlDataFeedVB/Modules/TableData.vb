@@ -1,5 +1,4 @@
 ﻿
-
 Imports System.Xml.Serialization
 Imports System.Collections.Generic
 Imports System.Xml
@@ -21,15 +20,17 @@ Namespace AnySqlDataFeed.XML
 
             Private m_schema As System.Data.DataTable
             Private m_data As System.Data.DataRow
-
+            Private m_XmlEndcoder As MyXmlEncoder = New MyXmlEncoder()
 
             Public Sub New()
+                Me.m_XmlEndcoder = New MyXmlEncoder()
             End Sub
 
 
             Public Sub New(schema As System.Data.DataTable, data As System.Data.DataRow)
-                m_schema = schema
-                m_data = data
+                Me.m_schema = schema
+                Me.m_data = data
+                Me.m_XmlEndcoder = New MyXmlEncoder()
             End Sub
 
 
@@ -72,14 +73,11 @@ Namespace AnySqlDataFeed.XML
             End Sub
 
 
-            Private Sub WriteXml(writer As XmlWriter) Implements IXmlSerializable.WriteXml
-                ' serialize other members as attributes
 
+
+
+            Public Sub WriteXml(writer As System.Xml.XmlWriter) Implements IXmlSerializable.WriteXml
                 Try
-
-
-
-
                     For Each dr As System.Data.DataRow In m_schema.Rows
                         Dim columnName As String = System.Convert.ToString(dr("column_name"))
                         Dim entityType As String = System.Convert.ToString(dr("EntityType"))
@@ -87,14 +85,23 @@ Namespace AnySqlDataFeed.XML
 
                         ' 2014-11-26T12:30:53.967
                         If Object.ReferenceEquals(m_data.Table.Columns(columnName).DataType, GetType(DateTime)) Then
-                            If m_data(columnName) Is System.DBNull.Value Then
-                                data = Nothing
-                            Else
+                            If m_data(columnName) IsNot System.DBNull.Value Then
                                 Dim dat As System.DateTime = DirectCast(m_data(columnName), System.DateTime)
                                 data = dat.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff", System.Globalization.CultureInfo.InvariantCulture)
                             End If
+                        ElseIf Object.ReferenceEquals(m_data.Table.Columns(columnName).DataType, GetType(Byte())) Then
+                            If m_data(columnName) IsNot System.DBNull.Value Then
+                                Dim dat As Byte() = DirectCast(m_data(columnName), Byte())
+
+                                If dat IsNot Nothing Then
+                                    data = System.Convert.ToBase64String(dat)
+                                End If
+
+                            End If
                         Else
-                            data = System.Convert.ToString(m_data(columnName), System.Globalization.CultureInfo.InvariantCulture)
+                            If m_data(columnName) IsNot System.DBNull.Value Then
+                                data = System.Convert.ToString(m_data(columnName), System.Globalization.CultureInfo.InvariantCulture)
+                            End If
                         End If
 
                         ' LoLz
@@ -113,43 +120,105 @@ Namespace AnySqlDataFeed.XML
                         End If
 
                         If data IsNot Nothing Then
-                            writer.WriteValue(data)
+                            'writer.WriteValue(data)
+
+                            'If StringComparer.OrdinalIgnoreCase.Equals(columnName, "KU_Bemerkung") Then
+                            '    System.Console.WriteLine(data)
+                            'End If
+
+                            'Dim str As String = System.Security.SecurityElement.Escape(data)
+                            Dim str As String = m_XmlEndcoder.XmlEscape(data)
+                            writer.WriteRaw(str)
                         End If
 
                         writer.WriteEndElement()
-                    Next
-
+                    Next dr
                 Catch ex As Exception
                     System.Console.WriteLine(ex.Message)
                     Throw
                 End Try
 
 
-                '
-                '                // <d:AD_UID m:type="Edm.Guid">6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad</d:AD_UID>
-                '                writer.WriteStartElement("d:" + "AD_UID");
-                '                writer.WriteAttributeString("m:type", "Edm.Guid");
-                '                writer.WriteValue(System.Guid.NewGuid().ToString());
-                '                writer.WriteEndElement();
-                '
-                '                //<d:AD_User>hbd_cafm</d:AD_User>
-                '                writer.WriteStartElement("d:" + "AD_User");
-                '                writer.WriteValue("hbd_cafm");
-                '                writer.WriteEndElement();
-                '
-                '                // <d:AD_Password>DrpC0u2ZJp0=</d:AD_Password>
-                '                writer.WriteStartElement("d:" + "AD_Password");
-                '                writer.WriteValue("DrpC0u2ZJp0=");
-                '                writer.WriteEndElement();
-                '
-                '                // <d:AD_Level m:type="Edm.Byte">1</d:AD_Level>
-                '                writer.WriteStartElement("d:" + "AD_Level");
-                '                writer.WriteAttributeString("m:type", "Edm.Byte");
-                '                writer.WriteValue(1);
-                '                writer.WriteEndElement();
-                '                
+                '' <d:AD_UID m:type="Edm.Guid">6d12a79a-033d-4ca4-8e48-4a5eaa6f6aad</d:AD_UID>
+                'writer.WriteStartElement("d:" + "AD_UID")
+                'writer.WriteAttributeString("m:type", "Edm.Guid")
+                'writer.WriteValue(System.Guid.NewGuid().ToString())
+                'writer.WriteEndElement()
 
+                ''<d:AD_User>hbd_cafm</d:AD_User>
+                'writer.WriteStartElement("d:" + "AD_User")
+                'writer.WriteValue("hbd_cafm")
+                'writer.WriteEndElement()
+
+                '' <d:AD_Password>DrpC0u2ZJp0=</d:AD_Password>
+                'writer.WriteStartElement("d:" + "AD_Password")
+                'writer.WriteValue("DrpC0u2ZJp0=")
+                'writer.WriteEndElement()
+
+                '' <d:AD_Level m:type="Edm.Byte">1</d:AD_Level>
+                'writer.WriteStartElement("d:" + "AD_Level")
+                'writer.WriteAttributeString("m:type", "Edm.Byte")
+                'writer.WriteValue(1)
+                'writer.WriteEndElement()
             End Sub
+
+
+            ' http://stackoverflow.com/questions/1132494/string-escape-into-xml/22958657#22958657
+            Public Class MyXmlEncoder
+                Private m_doc As System.Xml.XmlDocument
+                Private m_node As System.Xml.XmlNode
+
+                Public Sub New()
+                    m_doc = New System.Xml.XmlDocument()
+                    m_node = m_doc.CreateElement("root")
+                End Sub
+
+
+                Public Function XmlEscape(unescaped As String) As String
+                    m_node.InnerText = unescaped
+
+                    Dim sanitizedXmlEncodedString As String = m_node.InnerXml.Replace("&#xB;", "")
+                    Return sanitizedXmlEncodedString
+                End Function
+
+
+                ' Does not work with Excel...
+                Public Shared Function SpecialXmlEscape(input As String) As String
+                    'string content = System.Xml.XmlConvert.EncodeName("\t");
+                    'string content = System.Security.SecurityElement.Escape("\t");
+                    'string strDelimiter = System.Web.HttpUtility.HtmlEncode("\t"); // XmlEscape("\t"); //XmlDecode("&#09;");
+                    'strDelimiter = XmlUnescape("&#59;");
+                    'Console.WriteLine(strDelimiter);
+                    'Console.WriteLine(string.Format("&#{0};", (int)';'));
+                    'Console.WriteLine(System.Text.Encoding.ASCII.HeaderName);
+                    'Console.WriteLine(System.Text.Encoding.UTF8.HeaderName);
+
+
+                    Dim strXmlText As String = ""
+
+                    If String.IsNullOrEmpty(input) Then
+                        Return input
+                    End If
+
+
+                    Dim sb As System.Text.StringBuilder = New System.Text.StringBuilder()
+
+                    For i As Integer = 0 To input.Length - 1
+                        'sb.AppendFormat("&#{0};", CInt(input(i)))
+                        sb.AppendFormat("&#{0};", AscW(input(i)))
+                    Next
+
+                    strXmlText = sb.ToString()
+                    sb.Length = 0
+                    sb = Nothing
+
+                    Return strXmlText
+                End Function ' SpecialXmlEscape
+
+            End Class
+            
+
+
 
             Private Sub SeekElement(reader As System.Xml.XmlReader, elementName As String)
                 ReaderToNextNode(reader)

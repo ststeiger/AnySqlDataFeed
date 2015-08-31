@@ -1,5 +1,5 @@
 ﻿
-namespace AnySqlDataFeed.Feed 
+namespace AnySqlDataFeed.OData 
 {
 
     using System;
@@ -7,7 +7,7 @@ namespace AnySqlDataFeed.Feed
     using System.Collections.Generic;
     using AnySqlDataFeed.XML;
 
-    public class Test
+    public class TableListFeed
     {
 
 

@@ -4,10 +4,10 @@ Imports System.Collections.Generic
 Imports AnySqlDataFeedVB.AnySqlDataFeed.XML
 
 
-Namespace AnySqlDataFeed.Feed
+Namespace AnySqlDataFeed.OData
 
 
-    Public Class Test
+    Public Class TableListFeed
 
 
         Public Shared Function GetSerializationData() As AnySqlDataFeed.XML.TableList.Service

@@ -37,10 +37,10 @@ namespace AnySqlDataFeed
 
             if (string.IsNullOrEmpty(tableName))
                 // res = new XmlResult(Feed.Test.GetSerializationData());
-                m_objectToSerialize = Feed.Test.GetSerializationData();
+                m_objectToSerialize = OData.TableListFeed.GetSerializationData();
             else
                 //res = new XmlResult(tableName, Feed.TableDataTest.Test);
-                m_CallBack = Feed.TableDataTest.Test;
+                m_CallBack = OData.TableDataFeed.GetSerializationData;
 
 
             // res.ExecuteResult();

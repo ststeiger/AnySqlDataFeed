@@ -34,10 +34,10 @@ Namespace AnySqlDataFeed
 
             If String.IsNullOrEmpty(tableName) Then
                 ' res = new XmlResult(Feed.Test.GetSerializationData());
-                m_objectToSerialize = Feed.Test.GetSerializationData()
+                m_objectToSerialize = OData.TableListFeed.GetSerializationData()
             Else
                 'res = new XmlResult(tableName, Feed.TableDataTest.Test);
-                m_CallBack = AddressOf Feed.TableDataTest.Test
+                m_CallBack = AddressOf OData.TableDataFeed.GetSerializationData
             End If
 
 

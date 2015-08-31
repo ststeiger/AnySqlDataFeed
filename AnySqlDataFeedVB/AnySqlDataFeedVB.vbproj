@@ -110,6 +110,7 @@
     <Compile Include="Modules\TableDataTest.vb" />
     <Compile Include="Modules\TableList.vb" />
     <Compile Include="Modules\TableListTest.vb" />
+    <Compile Include="Modules\Trash\Trash.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

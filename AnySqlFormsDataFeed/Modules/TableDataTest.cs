@@ -1,6 +1,6 @@
 ﻿
 
-namespace AnySqlDataFeed.Feed
+namespace AnySqlDataFeed.OData
 {
 
     using System;
@@ -9,7 +9,7 @@ namespace AnySqlDataFeed.Feed
     using AnySqlDataFeed.XML;
 
 
-    public class TableDataTest
+    public class TableDataFeed
     {
 
 
@@ -343,7 +343,7 @@ AND isc.table_name = '" + table_name.Replace("'", "''") + @"'
         }
 
 
-        public static void Test(string table_name, System.IO.TextWriter tw)
+        public static void GetSerializationData(string table_name, System.IO.TextWriter tw)
         {
             /*
             var set = new System.Xml.XmlWriterSettings();
