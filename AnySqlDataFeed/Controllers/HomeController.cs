@@ -20,18 +20,15 @@ namespace AnySqlDataFeed.Controllers
         }
 
 
-
         public ContentResult Serialize()
         {
-            // XML.Test.SerializeToFile();
-
-            AnySqlDataFeed.Feed.TableDataTest.Test("T_Admin", this.HttpContext.Response.Output);
+            AnySqlDataFeed.OData.TableDataFeed.GetSerializationData("T_Admin", this.HttpContext.Response.Output);
 
             return Content("OK");
         }
 
 
-    }
+    } // End Class HomeController : Controller
 
 
-}
+} // End Namespace AnySqlDataFeed.Controllers

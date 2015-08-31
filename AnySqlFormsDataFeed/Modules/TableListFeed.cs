@@ -20,8 +20,6 @@ namespace AnySqlDataFeed.OData
             System.Uri url = System.Web.HttpContext.Current.Request.Url;
             ser.Base = url.Scheme + "://" + url.Authority + (System.Web.Hosting.HostingEnvironment.ApplicationVirtualPath + "/").Replace("//", "/") + "ajax/ExcelDataFeed.ashx";
 
-
-
             if (Environment.OSVersion.Platform != PlatformID.Unix)
                 ser.Xmlns = "http://www.w3.org/2007/app";
 

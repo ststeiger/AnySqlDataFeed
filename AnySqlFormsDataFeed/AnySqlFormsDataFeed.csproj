@@ -83,10 +83,10 @@
     <Compile Include="Modules\Serialization.cs" />
     <Compile Include="Modules\SQL.cs" />
     <Compile Include="Modules\TableData.cs" />
-    <Compile Include="Modules\TableDataTest.cs" />
     <Compile Include="Modules\TableList.cs" />
-    <Compile Include="Modules\TableListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modules\TableDataFeed.cs" />
+    <Compile Include="Modules\TableListFeed.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

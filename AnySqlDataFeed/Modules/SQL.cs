@@ -10,19 +10,58 @@ namespace AnySqlDataFeed
 
     public class SQL
     {
+        
+
+        private static System.Data.Common.DbProviderFactory GetFactory(System.Type type)
+        {
+            if (type != null && type.IsSubclassOf(typeof(System.Data.Common.DbProviderFactory)))
+            {
+                // Provider factories are singletons with Instance field having
+                // the sole instance
+                System.Reflection.FieldInfo field = type.GetField("Instance"
+                    , System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static
+                );
+
+                if (field != null)
+                {
+                    return (System.Data.Common.DbProviderFactory)field.GetValue(null);
+                    //return field.GetValue(null) as DbProviderFactory;
+                } // End if (field != null)
+
+            } // End if (type != null && type.IsSubclassOf(typeof(System.Data.Common.DbProviderFactory)))
+
+            throw new System.Configuration.ConfigurationErrorsException("DataProvider is missing!");
+            //throw new System.Configuration.ConfigurationException("DataProvider is missing!");
+        } // End Function GetFactory
+
+
+        private static System.Data.Common.DbProviderFactory GetFactory()
+        {
+            if (System.Environment.OSVersion.Platform != PlatformID.Unix)
+                return GetFactory(typeof(System.Data.SqlClient.SqlClientFactory));
+            
+            return GetFactory(typeof(Npgsql.NpgsqlFactory));
+        }
+
+
+        private static System.Data.Common.DbProviderFactory fac = GetFactory();
 
 
         public static string GetConnectionString()
         {
-            System.Data.SqlClient.SqlConnectionStringBuilder sb = new System.Data.SqlClient.SqlConnectionStringBuilder();
-            sb.DataSource = Environment.MachineName;
-            sb.InitialCatalog = "COR_Basic_Demo";
-            sb.IntegratedSecurity = true;
-            sb.MultipleActiveResultSets = true;
-            sb.PersistSecurityInfo = false;
-            sb.Pooling = true;
-            sb.PacketSize = 4096;
-            sb.ApplicationName = "ODataTest";
+            if (fac is System.Data.SqlClient.SqlClientFactory)
+            {
+                System.Data.SqlClient.SqlConnectionStringBuilder sb = new System.Data.SqlClient.SqlConnectionStringBuilder();
+                sb.DataSource = Environment.MachineName;
+                sb.InitialCatalog = "COR_Basic_Demo";
+                sb.IntegratedSecurity = true;
+                sb.MultipleActiveResultSets = true;
+                sb.PersistSecurityInfo = false;
+                sb.Pooling = true;
+                sb.PacketSize = 4096;
+                sb.ApplicationName = "ODataTest";
+                return sb.ConnectionString;
+            }
 
 
             Npgsql.NpgsqlConnectionStringBuilder csb = new Npgsql.NpgsqlConnectionStringBuilder();
@@ -37,25 +76,26 @@ namespace AnySqlDataFeed
             csb.CommandTimeout = 300;
             csb.ApplicationName = "ODataTest";
 
-            System.Data.Common.DbConnectionStringBuilder dbcs = sb;
-            if (System.Environment.OSVersion.Platform == PlatformID.Unix)
-                dbcs = csb;
-
-            return dbcs.ConnectionString;
+            return csb.ConnectionString;
         }
+
 
         public static System.Data.Common.DbDataAdapter GetAdapter(string strSQL)
         {
-            if (System.Environment.OSVersion.Platform == PlatformID.Unix)
-                return new Npgsql.NpgsqlDataAdapter(strSQL, GetConnectionString());
+            System.Data.Common.DbDataAdapter ada = fac.CreateDataAdapter();
+            ada.SelectCommand = fac.CreateCommand();
+            ada.SelectCommand.Connection = fac.CreateConnection();
+            ada.SelectCommand.Connection.ConnectionString = GetConnectionString();
+            ada.SelectCommand.CommandText = strSQL;
 
-            return new System.Data.SqlClient.SqlDataAdapter(strSQL, GetConnectionString());
+            return ada;
         }
 
 
         public static System.Data.DataTable GetDataTable(string SQL)
         {
             System.Data.DataTable dt = new System.Data.DataTable();
+
 
             using (System.Data.Common.DbDataAdapter da = GetAdapter(SQL))
             {
