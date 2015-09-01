@@ -28,6 +28,46 @@ namespace AnySqlDataFeed.Query
     {
 
 
+        // http://stackoverflow.com/questions/181596/how-to-convert-a-column-number-eg-127-into-an-excel-column-eg-aa
+        private string GetExcelColumnName(int columnNumber)
+        {
+            int dividend = columnNumber;
+            string columnName = String.Empty;
+            int modulo;
+
+            while (dividend > 0)
+            {
+                modulo = (dividend - 1) % 26;
+                columnName = Convert.ToChar(65 + modulo).ToString() + columnName;
+                dividend = (int)((dividend - modulo) / 26);
+            }
+
+            return columnName;
+        }
+
+
+
+        // http://stackoverflow.com/questions/667802/what-is-the-algorithm-to-convert-an-excel-column-letter-into-its-number
+        public static int ExcelColumnNameToNumber(string columnName)
+        {
+            if (string.IsNullOrEmpty(columnName)) throw new System.ArgumentNullException("columnName");
+
+            columnName = columnName.ToUpperInvariant();
+
+            int sum = 0;
+
+            for (int i = 0; i < columnName.Length; i++)
+            {
+                sum *= 26;
+                sum += (columnName[i] - 'A' + 1);
+            }
+
+            return sum;
+        }
+
+
+
+
         // http://blogs.msdn.com/b/webdev/archive/2013/02/25/translating-odata-queries-to-hql.aspx
         public class ODataQueryOptions
         {
