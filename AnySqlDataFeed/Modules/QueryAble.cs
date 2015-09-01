@@ -10,7 +10,7 @@ namespace AnySqlDataFeed.Query
     // http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api/using-$select,-$expand,-and-$value
 
     // http://www.codeproject.com/Articles/393623/OData-Services
-    ^// http://www.codeproject.com/Articles/514598/Understanding-OData-v-and-WCF-Data-Services-x
+    // http://www.codeproject.com/Articles/514598/Understanding-OData-v-and-WCF-Data-Services-x
 
 
     // http://blog.falafel.com/consuming-an-odata-feed-in-net-2-0/

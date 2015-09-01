@@ -54,6 +54,10 @@ namespace AnySqlDataFeed
                 System.Data.SqlClient.SqlConnectionStringBuilder sb = new System.Data.SqlClient.SqlConnectionStringBuilder();
                 sb.DataSource = Environment.MachineName;
                 sb.InitialCatalog = "COR_Basic_Demo";
+
+                sb.DataSource = "CORDB2014";
+                sb.InitialCatalog = "COR_Basic_Post";
+
                 sb.IntegratedSecurity = true;
                 sb.MultipleActiveResultSets = true;
                 sb.PersistSecurityInfo = false;
