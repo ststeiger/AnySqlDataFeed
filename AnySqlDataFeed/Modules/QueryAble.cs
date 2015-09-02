@@ -32,25 +32,25 @@ namespace AnySqlDataFeed.Query
         private string GetExcelColumnName(int columnNumber)
         {
             int dividend = columnNumber;
-            string columnName = String.Empty;
+            string columnName = string.Empty;
             int modulo;
 
             while (dividend > 0)
             {
                 modulo = (dividend - 1) % 26;
-                columnName = Convert.ToChar(65 + modulo).ToString() + columnName;
+                columnName = System.Convert.ToChar(65 + modulo).ToString() + columnName;
                 dividend = (int)((dividend - modulo) / 26);
-            }
+            } // Whend 
 
             return columnName;
-        }
-
+        } // End Function GetExcelColumnName
 
 
         // http://stackoverflow.com/questions/667802/what-is-the-algorithm-to-convert-an-excel-column-letter-into-its-number
         public static int ExcelColumnNameToNumber(string columnName)
         {
-            if (string.IsNullOrEmpty(columnName)) throw new System.ArgumentNullException("columnName");
+            if (string.IsNullOrEmpty(columnName)) 
+                throw new System.ArgumentNullException("columnName");
 
             columnName = columnName.ToUpperInvariant();
 
@@ -60,12 +60,10 @@ namespace AnySqlDataFeed.Query
             {
                 sum *= 26;
                 sum += (columnName[i] - 'A' + 1);
-            }
+            } // Next i
 
             return sum;
-        }
-
-
+        } // End Function ExcelColumnNameToNumber
 
 
         // http://blogs.msdn.com/b/webdev/archive/2013/02/25/translating-odata-queries-to-hql.aspx
@@ -95,12 +93,10 @@ namespace AnySqlDataFeed.Query
         {
             // Context
 
+            // public OrderByClause OrderByClause { get; }
             public List<OrderByNode> OrderByNodes;
 
-            // public OrderByClause OrderByClause { get; }
-
             // RawValue
-
             // Validator
         }
 
