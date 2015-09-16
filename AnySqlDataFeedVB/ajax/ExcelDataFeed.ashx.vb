@@ -23,6 +23,18 @@ Public Class ExcelDataFeed
         ' HTTPS Client Authentication
         ' Form Based Authentication
 
+        ' How does basic auth work?
+        ' Basic authentication is a very simple authentication scheme, 
+        ' that should only be used in conjunction with SSL 
+        ' or in scenarios where security isn’t paramount.
+
+        ' If you look at how a basic authentication header is fabricated, you can see why it is NOT secure by itself:
+
+        ' string creds = "user" + ":" + "password";
+        ' byte[] bcreds = System.Text.Encoding.ASCII.GetBytes(creds);
+        ' string base64Creds = System.Convert.ToBase64String(bcreds); 
+        ' string authorizationHeader = "Basic " + base64Creds;
+
 #Const USE_BASIC_AUTH = False
 
 
