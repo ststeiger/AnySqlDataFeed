@@ -22,6 +22,10 @@ Public Class ExcelDataFeed
         ' HTTP Digest Authentication
         ' HTTPS Client Authentication
         ' Form Based Authentication
+
+#Const USE_BASIC_AUTH = False
+
+
 #If USE_BASIC_AUTH Then
 
         If Not Authenticate(context) Then

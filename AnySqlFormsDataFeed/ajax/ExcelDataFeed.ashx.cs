@@ -1,4 +1,6 @@
 ﻿
+// #define USE_BASIC_AUTH 
+
 using System.Collections.Generic;
 using System.Web;
 
@@ -23,6 +25,8 @@ namespace AnySqlFormsDataFeed.ajax
             // HTTP Digest Authentication
             // HTTPS Client Authentication
             // Form Based Authentication
+
+        
 #if USE_BASIC_AUTH
 
 	        if (!Authenticate(context)) 
