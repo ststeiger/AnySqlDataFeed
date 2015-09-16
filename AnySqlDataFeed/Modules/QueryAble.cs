@@ -20,7 +20,7 @@ namespace AnySqlDataFeed.Query
     // http://www.c-sharpcorner.com/UploadFile/dacca2/expose-odata-endpoint-without-entity-framework-and-perform-c/
 
 
-    // http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api
+    // http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api<
     // http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint
     // http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api/odata-v3/creating-an-odata-endpoint
     // http://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
@@ -29,7 +29,7 @@ namespace AnySqlDataFeed.Query
 
 
         // http://stackoverflow.com/questions/181596/how-to-convert-a-column-number-eg-127-into-an-excel-column-eg-aa
-        private string GetExcelColumnName(int columnNumber)
+        private string GetExcelColumnName(int columnNumber) // [1, 16384]
         {
             int dividend = columnNumber;
             string columnName = string.Empty;
